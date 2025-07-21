@@ -1,0 +1,6 @@
+pandas
+SQLAlchemy
+PyMySQL
+fuzzywuzzy
+python-Levenshtein
+kafka-python
