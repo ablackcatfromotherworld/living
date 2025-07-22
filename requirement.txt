@@ -4,3 +4,5 @@ PyMySQL
 fuzzywuzzy
 python-Levenshtein
 kafka-python
+aiohttp
+schedule
