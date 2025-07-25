@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Record",
+        "link": "https://www.playplus.com/Live/LiveEvent/180?groupId=7",
+        "image": "https://resources-01.ottvs.com.br/banner/5b2a9198-ee51-4e68-81c6-21ea75ca67e6.jpg",
+        "urlLive": "https://spo4.akamaized.net/hls/live/2029736/spo4/index.m3u8?hdnts=exp=1753415128~acl=/*~hmac=ea75137acc1b1a6af338bd0eac94cb88815f0432f5cfe69b6bd953d1cdc555f8"
+    },
+    {
+        "name": "Record News",
+        "link": "https://www.playplus.com/Live/LiveEvent/191?groupId=10",
+        "image": "https://resources-01.ottvs.com.br/banner/61ff896a-7c53-4b6c-b83c-439e5941a934.jpg",
+        "urlLive": "https://brasil.cdnsimba.com.br/bpk-tv/RecordNEWS/default/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvYnBrLXR2L1JlY29yZE5FV1MvZGVmYXVsdC9pbmRleC5tM3U4IiwibWV0aG9kIjoiR0VUIiwiZXhwIjoxNzUzNDE1MTMxfQ.oHWy_CkoiVOE-yG1SBa2QgtvsqQiPOGc4CygUK_i3b0"
+    },
+    {
+        "name": "TV Guararapes",
+        "link": "https://www.playplus.com/Live/LiveEvent/605?groupId=46",
+        "image": "https://resources-01.ottvs.com.br/banner/2d0912d7-6a6a-4f24-9858-eedf736aaad0.jpg",
+        "urlLive": "https://rec4.akamaized.net/hls/live/2113796/rec4/master.m3u8?hdnts=exp=1753415134~acl=/*~hmac=1e5784cca5caa30cbc9c2e1f1cf0effda0650747fb160ce7f49a2e389d65efb9"
+    },
+    {
+        "name": "NDTV",
+        "link": "https://www.playplus.com/Live/LiveEvent/606?groupId=47",
+        "image": "https://resources-01.ottvs.com.br/banner/2ca38b50-07b7-400c-8da3-8f23b439a9d1.jpg",
+        "urlLive": "https://fns4.akamaized.net/hls/live/2113797/fns4/master.m3u8?hdnts=exp=1753415137~acl=/*~hmac=a3c54ef71221a58ac2960ffbb2a8987b066c22ea313ccd864f17ebb93ac9ffd5"
+    },
+    {
+        "name": "TV Vitória",
+        "link": "https://www.playplus.com/Live/LiveEvent/608?groupId=48",
+        "image": "https://resources-01.ottvs.com.br/banner/c6087ddd-55bb-4499-9dfc-a6ad1fa0228b.jpg",
+        "urlLive": "https://brasil.cdnsimba.com.br/bpk-tv/RecordVIT/default/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvYnBrLXR2L1JlY29yZFZJVC9kZWZhdWx0L2luZGV4Lm0zdTgiLCJtZXRob2QiOiJHRVQiLCJleHAiOjE3NTM0MTUxMzl9.sP2XwjYGnGJZrH0YERWx1ufbPpbElkG03RRVW2U_Ark"
+    },
+    {
+        "name": "TH+",
+        "link": "https://www.playplus.com/Live/LiveEvent/609?groupId=49",
+        "image": "https://resources-01.ottvs.com.br/banner/56d206a3-c98a-4e21-9f83-0c3b03d55291.jpg",
+        "urlLive": "https://brasil.cdnsimba.com.br/bpk-tv/RecordCamp/default/index.m3u8?auth=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvYnBrLXR2L1JlY29yZENhbXAvZGVmYXVsdC9pbmRleC5tM3U4IiwibWV0aG9kIjoiR0VUIiwiZXhwIjoxNzUzNDE1MTQyfQ.BdAA_Q3sy2dBGHhcVMl5E_3_I3_sT_PfHQG1P9vEc5I"
+    },
+    {
+        "name": "TV Cidade",
+        "link": "https://www.playplus.com/Live/LiveEvent/610?groupId=50",
+        "image": "https://resources-01.ottvs.com.br/banner/cb793758-ea30-4ab4-a819-28d120a7b6b5.jpg",
+        "urlLive": "https://fla4.akamaized.net/hls/live/2113801/fla4/master.m3u8?hdnts=exp=1753415144~acl=/*~hmac=52ee938ae7fc5fe56c10f58b02cb2008a0e8852dc6a847fd501eb04cb302911b"
+    },
+    {
+        "name": "RIC TV",
+        "link": "https://www.playplus.com/Live/LiveEvent/607?groupId=51",
+        "image": "https://resources-01.ottvs.com.br/banner/f0c6c767-eec4-4c40-89e3-7e6d56b88e22.jpg",
+        "urlLive": "https://cta4.akamaized.net/hls/live/2113798/cta4/master.m3u8?hdnts=exp=1753415146~acl=/*~hmac=bdb58f8afab52a8da28ba42b83efb77cef1c47175ed354af5722c35dbfac22a2"
+    },
+    {
+        "name": "Rádios",
+        "link": "https://www.playplus.com/Live/LiveEvent/213?groupId=9",
+        "image": "https://resources-01.ottvs.com.br/banner/3373e1a5-091e-439c-9b68-d6a194da854a.jpg",
+        "urlLive": "https://radiosociedade.akamaized.net/hls/live/2043100/radiosoc/master.m3u8"
+    }
+]
