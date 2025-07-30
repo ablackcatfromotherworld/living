@@ -385,3 +385,233 @@ if __name__ == '__main__':
     extractor = CXTVEtractor()
     # 运行定时任务调度器
     extractor.run_scheduler()
+
+import requests
+
+cookies = {
+    'LOGIN_INFO': 'AFmmF2swRgIhAP0XAR0kiByNJ8mNO3_1d4uAP36K-F2EgfkKk6LIAfXoAiEAix_0D-lYR0PBa0UufgwFDytnBjYFNYGXHW5on0iRHZg:QUQ3MjNmekZfTVhYbk9IR2ZueG9sUk95R0JFNndiaWU2YlBsSDBPR1N4NUJ0VjZSTUZGUjM4d1dYRFBQZXZYTzNfaFl5TV9qVld3ZmNkT1JRdU11SmdMOU54QzNaTGp1azg5c1J0QnQ2T19VUXhpVlV6Rld4dzU2YzBEN2hXVzlvaHN6VzdkMnNLRmlURUwyMUtxdWNZSEZ1bmV6ekNfb0ln',
+    '__Secure-3PSIDTS': 'sidts-CjIB5H03P_B3jkbwUs4qN8A_H2syLXplEYBwIuB2vfu-1MO3UvghMbyGEmHqkUtgTXd63hAA',
+    '__Secure-3PAPISID': 'isFO5K2AVZNBV28n/AB6easbTAR0jTKGOo',
+    '__Secure-3PSID': 'g.a000zQgxpS404yF8S67f6MkY7ES3D3VLomstRaNnmo2YJHfuBHxGQ9Zs_pflCIaqrxaoYskU7wACgYKAXUSARYSFQHGX2Miyn4OhQLdzspcCKps20w8TxoVAUF8yKqcz_fMdW_W8VzvySZeJP1D0076',
+    'YSC': 'JjNahjvVYN8',
+    'VISITOR_INFO1_LIVE': '4aGKzIZxGE4',
+    'VISITOR_PRIVACY_METADATA': 'CgJCUhIEGgAgYw%3D%3D',
+    '__Secure-ROLLOUT_TOKEN': 'CKjCjYS_ouy--gEQsLKfvabfjgMYsLKfvabfjgM%3D',
+    '__Secure-3PSIDCC': 'AKEyXzXnzkKaYLXufTFQxhjcQ4PMvQP6EPqeWYlZnp_UAh2GzcWQt9B6ntSXpI8LL50ddHupp4k',
+}
+
+headers = {
+    'accept': '*/*, application/vnd.t1c.pxr-626-1',
+    'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,en-GB-oxendict;q=0.5,zh-TW;q=0.4,ja;q=0.3',
+    'authorization': 'SAPISIDHASH 1753697018_2c33e1e5b3410f440d0f10809b9898aebd7f9710_u SAPISID3PHASH 1753697018_2c33e1e5b3410f440d0f10809b9898aebd7f9710_u',
+    'cache-control': 'no-cache',
+    'content-type': 'application/json',
+    'origin': 'https://www.youtube.com',
+    'pragma': 'no-cache',
+    'priority': 'u=1, i',
+    'referer': 'https://www.youtube.com/embed/Cy0s_bxzqkw?autoplay=true',
+    'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+    'sec-fetch-dest': 'empty',
+    'sec-fetch-mode': 'cors',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-storage-access': 'active',
+    'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36',
+    'x-browser-channel': 'stable',
+    'x-browser-copyright': 'Copyright 2025 Google LLC. All rights reserved.',
+    'x-browser-validation': '6h3XF8YcD8syi2FF2BbuE2KllQo=',
+    'x-browser-year': '2025',
+    'x-client-data': 'CIS2yQEIo7bJAQipncoBCKmVywEIlqHLAQiko8sBCIWgzQEIif3OARjh4s4B',
+    'x-goog-authuser': '0',
+    'x-goog-visitor-id': 'Cgs0YUdLeklaeEdFNCj3lZ3EBjIKCgJCUhIEGgAgYw%3D%3D',
+    'x-origin': 'https://www.youtube.com',
+    'x-youtube-bootstrap-logged-in': 'true',
+    'x-youtube-client-name': '56',
+    'x-youtube-client-version': '1.20250722.00.00',
+    # 'cookie': 'LOGIN_INFO=AFmmF2swRgIhAP0XAR0kiByNJ8mNO3_1d4uAP36K-F2EgfkKk6LIAfXoAiEAix_0D-lYR0PBa0UufgwFDytnBjYFNYGXHW5on0iRHZg:QUQ3MjNmekZfTVhYbk9IR2ZueG9sUk95R0JFNndiaWU2YlBsSDBPR1N4NUJ0VjZSTUZGUjM4d1dYRFBQZXZYTzNfaFl5TV9qVld3ZmNkT1JRdU11SmdMOU54QzNaTGp1azg5c1J0QnQ2T19VUXhpVlV6Rld4dzU2YzBEN2hXVzlvaHN6VzdkMnNLRmlURUwyMUtxdWNZSEZ1bmV6ekNfb0ln; __Secure-3PSIDTS=sidts-CjIB5H03P_B3jkbwUs4qN8A_H2syLXplEYBwIuB2vfu-1MO3UvghMbyGEmHqkUtgTXd63hAA; __Secure-3PAPISID=isFO5K2AVZNBV28n/AB6easbTAR0jTKGOo; __Secure-3PSID=g.a000zQgxpS404yF8S67f6MkY7ES3D3VLomstRaNnmo2YJHfuBHxGQ9Zs_pflCIaqrxaoYskU7wACgYKAXUSARYSFQHGX2Miyn4OhQLdzspcCKps20w8TxoVAUF8yKqcz_fMdW_W8VzvySZeJP1D0076; YSC=JjNahjvVYN8; VISITOR_INFO1_LIVE=4aGKzIZxGE4; VISITOR_PRIVACY_METADATA=CgJCUhIEGgAgYw%3D%3D; __Secure-ROLLOUT_TOKEN=CKjCjYS_ouy--gEQsLKfvabfjgMYsLKfvabfjgM%3D; __Secure-3PSIDCC=AKEyXzXnzkKaYLXufTFQxhjcQ4PMvQP6EPqeWYlZnp_UAh2GzcWQt9B6ntSXpI8LL50ddHupp4k',
+}
+
+params = {
+    'prettyPrint': 'false',
+}
+
+json_data = {
+    'videoId': 'Cy0s_bxzqkw',
+    'context': {
+        'client': {
+            'hl': 'en',
+            'gl': 'BR',
+            'remoteHost': '154.205.156.51',
+            'deviceMake': '',
+            'deviceModel': '',
+            'visitorData': 'Cgs0YUdLeklaeEdFNCj3lZ3EBjIKCgJCUhIEGgAgYw%3D%3D',
+            'userAgent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36,gzip(gfe)',
+            'clientName': 'WEB_EMBEDDED_PLAYER',
+            'clientVersion': '1.20250722.00.00',
+            'osName': 'Windows',
+            'osVersion': '10.0',
+            'originalUrl': 'https://www.youtube.com/embed/Cy0s_bxzqkw?autoplay=true',
+            'platform': 'DESKTOP',
+            'clientFormFactor': 'UNKNOWN_FORM_FACTOR',
+            'configInfo': {
+                'appInstallData': 'CPeVncQGEParsAUQipeAExCHrM4cEMXLzxwQ78TPHBDT4a8FEPa6zxwQ9svPHBDds88cEJmYsQUQ_M7PHBDJ968FEPyyzhwQqZmAExCZjbEFEIGzzhwQvbauBRDOrM8cELCGzxwQzMDPHBC9irAFEOLKzxwQvZmwBRCU_rAFELjkzhwQ8sTPHBCly88cEMfIzxwQt-r-EhCJsM4cEAAQ4cvPHBDjvs8cELnZzhwQioKAExDa984cEJi5zxwQiIewBRDKys8cEJLRzxwQ3rzOHBCBzc4cEOq7zxwQ8JywBRCe0LAFEMXDzxwQn6HPHBCI468FEJOGzxwQu9nOHBCvj_8SEMzfrgUQ8OLOHBDmxc8cEKTPzxwqHENBTVNEeFVNLVpxLURPSGRoUXJMM0E0ZEJ3PT0%3D',
+            },
+            'browserName': 'Chrome',
+            'browserVersion': '138.0.0.0',
+            'acceptHeader': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+            'deviceExperimentId': 'ChxOelV6TWpBM01UTXlOekl3TmprM05qRTBNZz09EPeVncQGGPeVncQG',
+            'rolloutToken': 'CKjCjYS_ouy--gEQsLKfvabfjgMYsLKfvabfjgM%3D',
+            'screenWidthPoints': 706,
+            'screenHeightPoints': 411,
+            'screenPixelDensity': 2,
+            'screenDensityFloat': 1.5,
+            'utcOffsetMinutes': 480,
+            'userInterfaceTheme': 'USER_INTERFACE_THEME_LIGHT',
+            'connectionType': 'CONN_CELLULAR_3G',
+            'timeZone': 'Asia/Shanghai',
+            'playerType': 'UNIPLAYER',
+            'tvAppInfo': {
+                'livingRoomAppMode': 'LIVING_ROOM_APP_MODE_UNSPECIFIED',
+            },
+            'clientScreen': 'EMBED',
+        },
+        'user': {
+            'lockedSafetyMode': False,
+        },
+        'request': {
+            'useSsl': True,
+            'internalExperimentFlags': [],
+            'consistencyTokenJars': [],
+        },
+        'thirdParty': {
+            'embeddedPlayerContext': {
+                'embeddedPlayerEncryptedContext': 'AD5ZzFQ8Ad4WfIONAn5b_Ish5-WAsg4cY0mFQ-JYlsEmGm6o6qremuI8Hr91_eKFvya4usrjmoWQ9-ByAx_Fxb4X2-cp_ZAGsrrSeTDRSf1ueSagA1HLNxZ-2AWuBri3IRVRj4KG3dAUVTvBdomZBX1Ng1gk39UPhxg',
+                'ancestorOriginsSupported': False,
+                'ancestorOrigins': [
+                    'https://www.cxtvlive.com',
+                ],
+                'autoplayBrowserPolicy': 'AUTOPLAY_BROWSER_POLICY_UNSPECIFIED',
+                'autoplayIntended': True,
+                'autoplayStatus': 'AUTOPLAY_STATUS_UNAVAILABLE',
+            },
+            'embedUrl': 'https://www.cxtvlive.com/',
+        },
+        'clientScreenNonce': 'CG6z5QsuBskeMULX',
+        'adSignalsInfo': {
+            'params': [
+                {
+                    'key': 'dt',
+                    'value': '1753697018696',
+                },
+                {
+                    'key': 'flash',
+                    'value': '0',
+                },
+                {
+                    'key': 'frm',
+                    'value': '2',
+                },
+                {
+                    'key': 'u_tz',
+                    'value': '480',
+                },
+                {
+                    'key': 'u_his',
+                    'value': '8',
+                },
+                {
+                    'key': 'u_h',
+                    'value': '960',
+                },
+                {
+                    'key': 'u_w',
+                    'value': '1707',
+                },
+                {
+                    'key': 'u_ah',
+                    'value': '960',
+                },
+                {
+                    'key': 'u_aw',
+                    'value': '1707',
+                },
+                {
+                    'key': 'u_cd',
+                    'value': '24',
+                },
+                {
+                    'key': 'bc',
+                    'value': '31',
+                },
+                {
+                    'key': 'bih',
+                    'value': '-12245933',
+                },
+                {
+                    'key': 'biw',
+                    'value': '-12245933',
+                },
+                {
+                    'key': 'brdim',
+                    'value': '834,12,834,12,1707,0,810,966,706,411',
+                },
+                {
+                    'key': 'vis',
+                    'value': '1',
+                },
+                {
+                    'key': 'wgl',
+                    'value': 'true',
+                },
+                {
+                    'key': 'ca_type',
+                    'value': 'image',
+                },
+            ],
+        },
+        'clickTracking': {
+            'clickTrackingParams': 'CAAQru4BIhMIw5mmvabfjgMVOmtMCB0Y8SWb',
+        },
+    },
+    'playbackContext': {
+        'contentPlaybackContext': {
+            'html5Preference': 'HTML5_PREF_WANTS',
+            'lactMilliseconds': '40',
+            'referer': 'https://www.youtube.com/embed/Cy0s_bxzqkw?autoplay=true',
+            'signatureTimestamp': 20292,
+            'autoCaptionsDefaultOn': False,
+            'autoplay': True,
+            'mdxContext': {},
+            'playerWidthPixels': 706,
+            'playerHeightPixels': 411,
+            'ancestorOrigins': [
+                'https://www.cxtvlive.com',
+            ],
+            'encryptedHostFlags': 'AD5ZzFQeoFFOlFOrukfDTLq97ofgR-rtJlTGDlt3zEacPu58dZE0y5TbhTVcx05GLOl1OykgtME8UP2eijrSpZdbggTvPjocLY-aYZAd5nnNInGoRaHmMnVdmTG6OUsXEjlicFdyaH8CJq6WMhw6PKagOPXnTzvtNA',
+        },
+        'devicePlaybackCapabilities': {
+            'supportsVp9Encoding': True,
+            'supportXhr': True,
+        },
+    },
+    'cpn': '6Yvg_DVK10J3B255',
+    'serializedThirdPartyEmbedConfig': '{}',
+    'captionParams': {},
+    'serviceIntegrityDimensions': {
+        'poToken': 'IgisnKyexBvmZg==',
+    },
+}
+
+response = requests.post(
+    'https://www.youtube.com/youtubei/v1/player',
+    params=params,
+    cookies=cookies,
+    headers=headers,
+    json=json_data,
+)
+
+# Note: json_data will not be serialized by requests
+# exactly as it was in the original request.
+#data = '{"videoId":"Cy0s_bxzqkw","context":{"client":{"hl":"en","gl":"BR","remoteHost":"154.205.156.51","deviceMake":"","deviceModel":"","visitorData":"Cgs0YUdLeklaeEdFNCj3lZ3EBjIKCgJCUhIEGgAgYw%3D%3D","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36,gzip(gfe)","clientName":"WEB_EMBEDDED_PLAYER","clientVersion":"1.20250722.00.00","osName":"Windows","osVersion":"10.0","originalUrl":"https://www.youtube.com/embed/Cy0s_bxzqkw?autoplay=true","platform":"DESKTOP","clientFormFactor":"UNKNOWN_FORM_FACTOR","configInfo":{"appInstallData":"CPeVncQGEParsAUQipeAExCHrM4cEMXLzxwQ78TPHBDT4a8FEPa6zxwQ9svPHBDds88cEJmYsQUQ_M7PHBDJ968FEPyyzhwQqZmAExCZjbEFEIGzzhwQvbauBRDOrM8cELCGzxwQzMDPHBC9irAFEOLKzxwQvZmwBRCU_rAFELjkzhwQ8sTPHBCly88cEMfIzxwQt-r-EhCJsM4cEAAQ4cvPHBDjvs8cELnZzhwQioKAExDa984cEJi5zxwQiIewBRDKys8cEJLRzxwQ3rzOHBCBzc4cEOq7zxwQ8JywBRCe0LAFEMXDzxwQn6HPHBCI468FEJOGzxwQu9nOHBCvj_8SEMzfrgUQ8OLOHBDmxc8cEKTPzxwqHENBTVNEeFVNLVpxLURPSGRoUXJMM0E0ZEJ3PT0%3D"},"browserName":"Chrome","browserVersion":"138.0.0.0","acceptHeader":"text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7","deviceExperimentId":"ChxOelV6TWpBM01UTXlOekl3TmprM05qRTBNZz09EPeVncQGGPeVncQG","rolloutToken":"CKjCjYS_ouy--gEQsLKfvabfjgMYsLKfvabfjgM%3D","screenWidthPoints":706,"screenHeightPoints":411,"screenPixelDensity":2,"screenDensityFloat":1.5,"utcOffsetMinutes":480,"userInterfaceTheme":"USER_INTERFACE_THEME_LIGHT","connectionType":"CONN_CELLULAR_3G","timeZone":"Asia/Shanghai","playerType":"UNIPLAYER","tvAppInfo":{"livingRoomAppMode":"LIVING_ROOM_APP_MODE_UNSPECIFIED"},"clientScreen":"EMBED"},"user":{"lockedSafetyMode":false},"request":{"useSsl":true,"internalExperimentFlags":[],"consistencyTokenJars":[]},"thirdParty":{"embeddedPlayerContext":{"embeddedPlayerEncryptedContext":"AD5ZzFQ8Ad4WfIONAn5b_Ish5-WAsg4cY0mFQ-JYlsEmGm6o6qremuI8Hr91_eKFvya4usrjmoWQ9-ByAx_Fxb4X2-cp_ZAGsrrSeTDRSf1ueSagA1HLNxZ-2AWuBri3IRVRj4KG3dAUVTvBdomZBX1Ng1gk39UPhxg","ancestorOriginsSupported":false,"ancestorOrigins":["https://www.cxtvlive.com"],"autoplayBrowserPolicy":"AUTOPLAY_BROWSER_POLICY_UNSPECIFIED","autoplayIntended":true,"autoplayStatus":"AUTOPLAY_STATUS_UNAVAILABLE"},"embedUrl":"https://www.cxtvlive.com/"},"clientScreenNonce":"CG6z5QsuBskeMULX","adSignalsInfo":{"params":[{"key":"dt","value":"1753697018696"},{"key":"flash","value":"0"},{"key":"frm","value":"2"},{"key":"u_tz","value":"480"},{"key":"u_his","value":"8"},{"key":"u_h","value":"960"},{"key":"u_w","value":"1707"},{"key":"u_ah","value":"960"},{"key":"u_aw","value":"1707"},{"key":"u_cd","value":"24"},{"key":"bc","value":"31"},{"key":"bih","value":"-12245933"},{"key":"biw","value":"-12245933"},{"key":"brdim","value":"834,12,834,12,1707,0,810,966,706,411"},{"key":"vis","value":"1"},{"key":"wgl","value":"true"},{"key":"ca_type","value":"image"}]},"clickTracking":{"clickTrackingParams":"CAAQru4BIhMIw5mmvabfjgMVOmtMCB0Y8SWb"}},"playbackContext":{"contentPlaybackContext":{"html5Preference":"HTML5_PREF_WANTS","lactMilliseconds":"40","referer":"https://www.youtube.com/embed/Cy0s_bxzqkw?autoplay=true","signatureTimestamp":20292,"autoCaptionsDefaultOn":false,"autoplay":true,"mdxContext":{},"playerWidthPixels":706,"playerHeightPixels":411,"ancestorOrigins":["https://www.cxtvlive.com"],"encryptedHostFlags":"AD5ZzFQeoFFOlFOrukfDTLq97ofgR-rtJlTGDlt3zEacPu58dZE0y5TbhTVcx05GLOl1OykgtME8UP2eijrSpZdbggTvPjocLY-aYZAd5nnNInGoRaHmMnVdmTG6OUsXEjlicFdyaH8CJq6WMhw6PKagOPXnTzvtNA"},"devicePlaybackCapabilities":{"supportsVp9Encoding":true,"supportXhr":true}},"cpn":"6Yvg_DVK10J3B255","serializedThirdPartyEmbedConfig":"{}","captionParams":{},"serviceIntegrityDimensions":{"poToken":"IgisnKyexBvmZg=="}}'
+#response = requests.post('https://www.youtube.com/youtubei/v1/player', params=params, cookies=cookies, headers=headers, data=data)
