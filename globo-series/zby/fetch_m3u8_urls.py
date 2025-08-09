@@ -4,8 +4,6 @@ import json
 import uuid
 from pathlib import Path
 import logging
-import schedule
-import time
 from datetime import datetime
 
 # 设置日志
@@ -62,55 +60,63 @@ class M3U8Fetcher:
         }
     
     async def fetch_m3u8_url(self, session, media_data):
-        """异步获取单个媒体ID的m3u8链接"""
+        """异步获取单个媒体ID的m3u8链接，带重试机制"""
         without_dvr_media_id = media_data.get('withoutDVRMediaId')
         name = media_data.get('name', 'Unknown')
+        max_retries = 5
         
         if not without_dvr_media_id:
             logger.warning(f"媒体 {name} 缺少withoutDVRMediaId")
             return None
         
-        try:
-            # 添加请求前的延迟，避免请求过快
-            await asyncio.sleep(0.5)  # 每个请求间隔0.5秒
-            
-            request_data = self.create_request_data(without_dvr_media_id)
-            
-            async with session.post(
-                self.url,
-                json=request_data,
-                cookies=self.cookies,
-                headers=self.headers,
-                timeout=aiohttp.ClientTimeout(total=60)
-            ) as response:
+        for attempt in range(max_retries):
+            try:
+                # 添加请求前的延迟，避免请求过快
+                await asyncio.sleep(0.5)  # 每个请求间隔0.5秒
                 
-                if response.status == 200:
-                    result = await response.json()
+                request_data = self.create_request_data(without_dvr_media_id)
+                
+                async with session.post(
+                    self.url,
+                    json=request_data,
+                    cookies=self.cookies,
+                    headers=self.headers,
+                    timeout=aiohttp.ClientTimeout(total=60)
+                ) as response:
                     
-                    # 提取sources数组第一个元素的url字段
-                    sources = result.get('sources', [])
-                    if sources and len(sources) > 0:
-                        first_source = sources[0]
-                        m3u8_url = first_source.get('url')
+                    if response.status == 200:
+                        result = await response.json()
                         
-                        if m3u8_url:
-                            logger.info(f"成功获取 {name} ({without_dvr_media_id}) 的m3u8链接")
-                            return {
-                                without_dvr_media_id: m3u8_url,
-                                'name': name  # 添加名称便于识别
-                            }
+                        sources = result.get('sources', [])
+                        if sources and len(sources) > 0:
+                            first_source = sources[0]
+                            m3u8_url = first_source.get('url')
+                            
+                            if m3u8_url:
+                                logger.info(f"成功获取 {name} ({without_dvr_media_id}) 的m3u8链接")
+                                return {
+                                    without_dvr_media_id: m3u8_url,
+                                    'name': name  
+                                }
+                            else:
+                                logger.warning(f"媒体 {name} ({without_dvr_media_id}) 的响应中没有找到url字段")
                         else:
-                            logger.warning(f"媒体 {name} ({without_dvr_media_id}) 的响应中没有找到url字段")
+                            logger.warning(f"媒体 {name} ({without_dvr_media_id}) 的响应中没有sources数据")
                     else:
-                        logger.warning(f"媒体 {name} ({without_dvr_media_id}) 的响应中没有sources数据")
-                else:
-                    logger.error(f"请求媒体 {name} ({without_dvr_media_id}) 失败，状态码: {response.status}")
-                    
-        except asyncio.TimeoutError:
-            logger.error(f"请求媒体 {name} ({without_dvr_media_id}) 超时")
-        except Exception as e:
-            logger.error(f"请求媒体 {name} ({without_dvr_media_id}) 时发生错误: {e}")
+                        logger.error(f"请求媒体 {name} ({without_dvr_media_id}) 失败，状态码: {response.status}，尝试次数: {attempt + 1}/{max_retries}")
+                        
+            except asyncio.TimeoutError:
+                logger.error(f"请求媒体 {name} ({without_dvr_media_id}) 超时，尝试次数: {attempt + 1}/{max_retries}")
+            except Exception as e:
+                logger.error(f"请求媒体 {name} ({without_dvr_media_id}) 时发生错误: {e}，尝试次数: {attempt + 1}/{max_retries}")
+            
+            # 如果不是最后一次尝试，等待一段时间再重试
+            if attempt < max_retries - 1:
+                retry_delay = (attempt + 1) * 2  # 递增延迟：2秒、4秒
+                logger.info(f"等待 {retry_delay} 秒后重试...")
+                await asyncio.sleep(retry_delay)
         
+        logger.error(f"媒体 {name} ({without_dvr_media_id}) 在 {max_retries} 次尝试后仍然失败")
         return None
     
     async def fetch_all_m3u8_urls(self):
@@ -187,39 +193,22 @@ async def fetch_and_save():
     else:
         print(f"没有获取到任何有效的m3u8链接 - {current_time}")
 
-def run_scheduled_task():
-    """运行定时任务的包装函数"""
+def main():
+    """主函数 - 单次执行获取任务"""
+    print("=== M3U8链接获取器启动 ===")
+    print("执行单次获取任务...")
+    
+    # 执行一次获取任务
     try:
         asyncio.run(fetch_and_save())
+        print("任务执行完成")
     except Exception as e:
         current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-        logger.error(f"定时任务执行失败 - {current_time}: {e}")
-        print(f"定时任务执行失败 - {current_time}: {e}")
-
-def main():
-    """主函数 - 设置定时任务并运行"""
-    print("=== M3U8链接获取器启动 ===")
-    print("定时任务设置: 每天0点和12点自动执行")
-    
-    # 设置定时任务
-    schedule.every().day.at("00:00").do(run_scheduled_task)
-    schedule.every().day.at("12:00").do(run_scheduled_task)
-    
-    print("\n首次执行任务...")
-    # 第一次运行
-    run_scheduled_task()
-    
-    print("\n=== 定时任务已启动，等待下次执行时间... ===")
-    print("下次执行时间: 每天 00:00 和 12:00")
-    print("按 Ctrl+C 退出程序")
-    
-    # 持续运行定时任务
-    try:
-        while True:
-            schedule.run_pending()
-            time.sleep(60)  # 每分钟检查一次
+        logger.error(f"任务执行失败 - {current_time}: {e}")
+        print(f"任务执行失败 - {current_time}: {e}")
     except KeyboardInterrupt:
-        print("\n程序已停止")
+        logger.info("程序已停止")
+        print("程序已停止")
 
 if __name__ == "__main__":
     main()
