@@ -1,0 +1,830 @@
+{
+    "data": {
+        "genericOffer": {
+            "id": "a00cf176-66e2-498e-aa28-6bae0c812ebe",
+            "contentType": "TITLE",
+            "intervention": null,
+            "defaultSubscriptionService": null,
+            "unauthorizedSubscriptionServices": null,
+            "userBased": false,
+            "paginatedItems": {
+                "page": 1,
+                "perPage": 24,
+                "hasNextPage": false,
+                "nextPage": null,
+                "customTitle": null,
+                "resources": [
+                    {
+                        "titleId": "7HJVQ2PJY6",
+                        "type": "TV_PROGRAM",
+                        "slug": "eta-mundo-melhor!",
+                        "headline": "Êta Mundo Melhor!",
+                        "originProgramId": "29108",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/TXForwATFFk2DKKY5S4Wn-xOtsM=/362x536/https://s2-globo-play.glbimg.com/PyBhhghsE2FVhj0li-PlrX31AHM=/https://s2.glbimg.com/l4Pi8Uhi5ghrRK1SFxBy-dqusgw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/U/M/xR7GmbQrGTNAV5HLhqhQ/2025-4877-eta-mundo-melhor-poster-safe-tarja.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/I4KgNc56G-eLAPHhgUvyUXePZbk=/360x0/https://s2-globo-play.glbimg.com/u3TtzSaqBzb9sTjDZkxWQIi1DwA=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/Jw56SIVKNiUA3wmqkcYuxTAa6A8=/https://s2.glbimg.com/Ic2L9D0M0gBnebK_yUSIXi3-Fk8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/d/f/kcaAHBSuq1PtweZ9KGGg/2025-4877-eta-mundo-melhor-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "10",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama",
+                            "Comédia"
+                        ],
+                        "releaseYear": 2025,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "NGvxTCrNkQ",
+                        "type": "TV_PROGRAM",
+                        "slug": "guerreiros-do-sol",
+                        "headline": "Guerreiros do Sol",
+                        "originProgramId": "27202",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/iDq04rIia0xKUU6ydaitgjbr7YI=/362x536/https://s2-globo-play.glbimg.com/Ym7_d8J0EYU9OGdPWTkdNQKKgdc=/https://s2.glbimg.com/n116tuTlpeHgcgyk3rbrtlcwPl8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/x/7/lKIXiiSWeCjG1eV7BdWg/2025-4800-guerreiros-do-sol-poster-safe.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/FJD1OBcgFZ10TBYixBYEqdYqOfk=/360x0/https://s2-globo-play.glbimg.com/vilkERECkl2v8W_7kv9GyfJTYqY=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/eRR6RCnTHdknK5QFUy60Mftcxy8=/https://s2.glbimg.com/VAWrd6g_cwtcl7tW50keLb4wYGo=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/q/T/ZSpQSuQDCPUAbOAPetTA/2025-4800-guerreiros-do-sol-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "16",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Ação",
+                            "Aventura",
+                            "Drama",
+                            "Crime"
+                        ],
+                        "releaseYear": 2025,
+                        "contentBrand": null,
+                        "originalContent": true,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "bTK1vjpRzb",
+                        "type": "SERIE",
+                        "slug": "bravo!",
+                        "headline": "Bravo!",
+                        "originProgramId": "28991",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/bzXXBpZqzNkgXHwp_F8Wzrh728o=/362x536/https://s2-globo-play.glbimg.com/392FbimKqRo6u4OV6B1Wt5fDQdE=/https://s2.glbimg.com/Ahl1iyXf1Ycztii33ZSOWFlrghU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/A/G/3IvNcXQ02y2SBTci7Tsw/2025-4675-bravo-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/WF6vzhLDPP9fk9BuaZ1Aed-OVLw=/360x0/https://s2-globo-play.glbimg.com/1bYyT6nG8LpUlDOLJxtGT9LgYeY=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/wpKMTD2ga2B4_n2f_115LAEiFRc=/https://s2.glbimg.com/NSA3iEJqDDve0QOIBpXveHY2GJo=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/i/Q/OVYvTdTAi1RsaL7BuI6Q/2025-4675-bravo-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "MINISERIES",
+                        "genresNames": [
+                            "Drama"
+                        ],
+                        "releaseYear": 1975,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "SgDbgrVWJX",
+                        "type": "TV_PROGRAM",
+                        "slug": "lacos-de-familia",
+                        "headline": "Laços de Família",
+                        "originProgramId": "3492",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/wQtinG03jUMtpDFY3TFB1CPSsEM=/362x536/https://s2-globo-play.glbimg.com/7Pnls7tbDabVlDWIE6-Jx7-WGfo=/https://s2.glbimg.com/DQhj3XctrFor5XPtbIPLCujc7Ys=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/X/A/0exq80TwWWKAHKBS4rHA/2025-4836-lacos-de-familia-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/SqFs-67U_seyzFp7CGfaxZnv5_o=/360x0/https://s2-globo-play.glbimg.com/Ll64herDuqAfeVcThVB8Dltxw6s=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/La2oKEn0UmA5GONU-qOBIm_CfJQ=/https://s2.glbimg.com/qCTAHeIQtsVXw54cVHDc7bGHByw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/w/H/U1vHw2S8OlO11N7Kc60g/2025-4836-lacos-de-familia-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama",
+                            "Família"
+                        ],
+                        "releaseYear": 2000,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "RGXBBZ2VzK",
+                        "type": "SERIE",
+                        "slug": "o-pulo-do-gato",
+                        "headline": "O Pulo do Gato",
+                        "originProgramId": "28959",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/Gn7aEVIHe0C7JW4_Eh9DL-n0aaE=/362x536/https://s2-globo-play.glbimg.com/dAW59XrHh7sntXhiHOM09Dk-LCo=/https://s2.glbimg.com/Rp6PjV_YNSPzW1vRKqOps1UHqwA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/2/U/Xw8k28SVicoPpFJv6uVA/2025-4672-o-pulo-do-gato-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/a32qffiEQHCBGtZQNL4Nfqie1-Y=/360x0/https://s2-globo-play.glbimg.com/hrVXsFUorlN8BT3PXtmOTb-1eeE=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/HhzWV_bPDNxSAImqceTd7LbxbxI=/https://s2.glbimg.com/FjMShaVnZa5Pn8-mZY9zjFmFxXc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/A/p/1mo7ltSy6aXgH0msBNoQ/2025-4672-o-pulo-do-gato-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "14",
+                        "format": "MINISERIES",
+                        "genresNames": [
+                            "Suspense",
+                            "Drama",
+                            "Mistério"
+                        ],
+                        "releaseYear": 1978,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "pck9rfsNj5",
+                        "type": "TV_PROGRAM",
+                        "slug": "verdades-secretas",
+                        "headline": "Verdades Secretas",
+                        "originProgramId": "8734",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/Uk6q8wbZfmy6zOUAwvUoSlbWg7Y=/362x536/https://s2-globo-play.glbimg.com/kKLGkRLHC_yk-MaWMqSDDLdecf8=/https://s2.glbimg.com/FKNLb_fV4_WDGavHe4K5h5YSfzk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/Q/3/tTqof0TuurR4JKg83Xew/2025-4787-verdades-secretas-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/uBhbwNmGesVsrpWRbitK7rj7WiM=/360x0/https://s2-globo-play.glbimg.com/bSkyWygkonFlX_P3hB7kgR6hojY=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/srBIYZGmE1TLe7gzDsyFWVXKn7k=/https://s2.glbimg.com/01ReVwKC8MGapw7n5_DHUoMlte4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/Q/D/uSmATuSGWYoZIeLBCcRQ/2025-4787-verdades-secretas-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "16",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama",
+                            "Sensual",
+                            "Mistério"
+                        ],
+                        "releaseYear": 2015,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "wRZfVpyyc8",
+                        "type": "TV_PROGRAM",
+                        "slug": "dona-de-mim",
+                        "headline": "Dona de Mim",
+                        "originProgramId": "28898",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/4EQsi1NY0QpeqxCADXppXJI8XBs=/362x536/https://s2-globo-play.glbimg.com/RF7KStDaEGUIH6uhJPkZmRa4ctE=/https://s2.glbimg.com/Iokm92zZn_EyMNc5JgOBfx2lsWs=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/D/E/AwzIB2R0C9mSqabvmsww/2025-4794-dona-de-mim-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/fZcSiBelBc4tVDUNh22Q6zrAARU=/360x0/https://s2-globo-play.glbimg.com/LvNPtpDFGY3CWSfTE4xmQbb-cLY=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/m8-xKHbORNtbVa4N7qvJrOi2vXI=/https://s2.glbimg.com/mgw_inxM9-t33tRvqtCj5235su0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/B/Z/2Eqr8GTjimAx2Q0XELhw/2025-4794-dona-de-mim-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama"
+                        ],
+                        "releaseYear": 2025,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "nBPRyzkkLY",
+                        "type": "SERIE",
+                        "slug": "a-sombra-dos-laranjais",
+                        "headline": "À Sombra dos Laranjais",
+                        "originProgramId": "28878",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/j9i6GKEYkONAoO0xc_YywKPWjW0=/362x536/https://s2-globo-play.glbimg.com/Bw3rhDBcxaBS6aJhmykLvSPtSO8=/https://s2.glbimg.com/YHmLTS34FZcvfK2RnbNInKoUBaQ=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/g/j/ALksi8R1aSYFdbydLt8Q/2025-4671-a-sombra-dos-laranjais-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/SfnmsU0InxZ8ckTyUrJGatZPaFc=/360x0/https://s2-globo-play.glbimg.com/023Sn0VKJA3snbumDYinq5HwQCU=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/vgxmXjHfQOPzYcIPUFteco9RJ_8=/https://s2.glbimg.com/jZSkfDhGyORemfMWRzi0G7eT6PE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/S/5/pwtlCKQMWcGttwaHAqBw/2025-4671-a-sombra-dos-laranjais-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "MINISERIES",
+                        "genresNames": [
+                            "Romance",
+                            "Drama",
+                            "Política"
+                        ],
+                        "releaseYear": 1977,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "RMQGKmcJy9",
+                        "type": "TV_PROGRAM",
+                        "slug": "a-viagem",
+                        "headline": "A Viagem",
+                        "originProgramId": "13290",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/eeEhqtYa09_I1Wws-zIG8191dx0=/362x536/https://s2-globo-play.glbimg.com/1Sj4NxV7JwnwddHjO8aYXLT3u0c=/https://s2.glbimg.com/Bmal25tTlG0rNqprxFpX2l3AbpI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/d/7/rImAbAS1uI7DBRcapX3w/2025-4759-a-viagem-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/XWM9gJuRVflrpVEjK890mCBeUGE=/360x0/https://s2-globo-play.glbimg.com/GrTK4zmhAZLSoULM3bFtZ_tJGu8=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/vxEb5ZZ8Ha8drpQ2vpzdM7NW4v0=/https://s2.glbimg.com/GzmaltjI9lcKTJ-lV4jsSXeJW9Q=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/c/T/SibPtoQymZ0igxY8tiPg/2025-4759-a-viagem-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "14",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama"
+                        ],
+                        "releaseYear": 1994,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "Sg7Y2Z1CsJ",
+                        "type": "TV_PROGRAM",
+                        "slug": "vale-tudo",
+                        "headline": "Vale Tudo",
+                        "originProgramId": "28297",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/8I-CAZXXwxHvb3VFGscTJP3Oloo=/362x536/https://s2-globo-play.glbimg.com/DeqgPoOQtGZYSjQ5Mv8YzoMB4UE=/https://s2.glbimg.com/U5geeWG3Bkt5aAI5jQjppQ6m2OU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/E/9/c9tpBdQ66fTZJBsjKHSg/2024-4722-vale-tudo-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/pNPTTB6HmSz5T4TZR2ksuuWVD1w=/360x0/https://s2-globo-play.glbimg.com/plVcvI8mBsYS4MveTbRStVMXrLs=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/cj2r0nqJMCXmCvt401pfKOT3UEg=/https://s2.glbimg.com/IrTH0u1ugCBjfFqnuJBhqD9njRY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/2/R/VTKLZuQpSSDNHITRnRiw/2024-4722-vale-tudo-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama"
+                        ],
+                        "releaseYear": 2025,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "MBMK15GV1j",
+                        "type": "SERIE",
+                        "slug": "helena",
+                        "headline": "Helena",
+                        "originProgramId": "28818",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/CsZUu9KvO3SBDNzcy-NLeLB3g_4=/362x536/https://s2-globo-play.glbimg.com/hDU88QyNg0hz7Fibaw9qXDp3sGY=/https://s2.glbimg.com/ylBVND_63kT3dZjcfLmCeheySjg=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/5/5/IUmBM6SA2t0tDoCsyJVQ/2025-4663-helena-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/AtG_Q2s6XbEprOCZpzcZOlz_ByU=/360x0/https://s2-globo-play.glbimg.com/BK3iIhXrOZCcyfDxgcrWl5U-894=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/qE21cVlqQGureClvv0thimFWWjU=/https://s2.glbimg.com/cuBlK-0VUgDdY3nttIqV2-oveHM=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/R/z/d5HFO8QLmByZnsy4gYCg/2025-4663-helena-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "MINISERIES",
+                        "genresNames": [
+                            "Romance",
+                            "Drama"
+                        ],
+                        "releaseYear": 1975,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "qjhQBD2WSS",
+                        "type": "TV_PROGRAM",
+                        "slug": "malhacao-1995",
+                        "headline": "Malhação 1995",
+                        "originProgramId": "13016",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/43xfj5nNyfKOEtDVwLJCjbe3G0o=/362x536/https://s2-globo-play.glbimg.com/BkoL5spNRTMcr7UrI6oECzaL4Yg=/https://s2.glbimg.com/9fajDfdT-9yi-VSPuJEUlx_SzZQ=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/B/E/nSjIJpTyGNObArrCoLRA/2025-4690-malhacao-1995-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/2v9oHsG0peSnnbUSiSwypgyYWhE=/360x0/https://s2-globo-play.glbimg.com/FwLCIQKC5hCgZq2BiPULEHr9DOw=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/UVmD7yGQB5wn-KzEVNz7Woyz-f4=/https://s2.glbimg.com/5qwD7hJBBPIDHz_wi7fv5v49gKY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/K/g/dSVElARDKluubJuoqzeg/2025-4690-malhacao-1995-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "10",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama"
+                        ],
+                        "releaseYear": 1995,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "Q8m7kyJCnp",
+                        "type": "TV_PROGRAM",
+                        "slug": "a-moreninha",
+                        "headline": "A Moreninha",
+                        "originProgramId": "28645",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/PASzdDt7-PXyBDAmD5nZTA_6cnw=/362x536/https://s2-globo-play.glbimg.com/oEHs9eiiW8vYdodY5nOYf2sC-0s=/https://s2.glbimg.com/elG06UGw3lE84majavgLrJQY8GY=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/t/C/IswwIVQ8a9VAZUJenMOg/2025-4658-a-moreninha-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/autNzPCWGb1wTVvMxrh5NoIuRew=/360x0/https://s2-globo-play.glbimg.com/4xgpNZl05VRcpip6O0qCC-lCX4w=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/kfYP3fq1sS3yK7uUQ578Neom8oU=/https://s2.glbimg.com/esQob2k8t46aBNrrk9s_mZFyjhk=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/k/2/FdW0PzTMeShgvYf4Jv9w/2025-4658-a-moreninha-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama",
+                            "Época"
+                        ],
+                        "releaseYear": 1975,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "tyGkJmP2Qq",
+                        "type": "TV_PROGRAM",
+                        "slug": "a-indomada",
+                        "headline": "A Indomada",
+                        "originProgramId": "2622",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/KBdlAGtDhBbwVPv9YTK7x5UMYMc=/362x536/https://s2-globo-play.glbimg.com/VoOazM83v8eVyBwA4JwIxi8zDgA=/https://s2.glbimg.com/TqT1T6Qcf3FqpFCE_BZqvvyuc5w=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/e/X/X8SEtKRjOHaLtIYBYSwA/2025-4679-a-indomada-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/LhH-PZCBJ3XhsK7j-L12voFHuq4=/360x0/https://s2-globo-play.glbimg.com/hgsYcHSoOkcGBSiUnQCNqwBb5Mg=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/qhgqYjf1AamSjO7IPNBZSipk7jo=/https://s2.glbimg.com/7guPHvbrnDOtBkCa7hE5zH55hk8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/d/B/VzVd8cRsOVSOmQllRZSg/2025-4679-a-indomada-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "L",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Drama"
+                        ],
+                        "releaseYear": 1997,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "y6pwnw2pjN",
+                        "type": "SERIE",
+                        "slug": "memorias-de-amor",
+                        "headline": "Memórias de Amor",
+                        "originProgramId": "28658",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/xv_yjAJO_86uBx4mPqygnrS_Ci4=/362x536/https://s2-globo-play.glbimg.com/aypDA7cKEE-SyZtq4-RK-FczLPw=/https://s2.glbimg.com/7fU6GdVC5iCWBSGwqHEo95qfC3I=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/Z/e/VwOlU7RwiEciZi1BBPtQ/2025-4618-memorias-de-amor-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/MQMoBVNrMOx4LAtJlZqrUNiWYqU=/360x0/https://s2-globo-play.glbimg.com/QWPKzKgB63axbO0jT5x1WEyij_U=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/qH34gV2hFbOLJRR55uxsgfuwvTE=/https://s2.glbimg.com/M4VFqrp6lofc2HMNI6Okc70Pip0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/k/7/g11fYORJCjVxOW0kNubQ/2025-4618-memorias-de-amor-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "MINISERIES",
+                        "genresNames": [
+                            "Romance",
+                            "Drama",
+                            "História",
+                            "Época",
+                            "Política"
+                        ],
+                        "releaseYear": 1979,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "ZrLfwv1nnK",
+                        "type": "TV_PROGRAM",
+                        "slug": "corpo-a-corpo",
+                        "headline": "Corpo A Corpo",
+                        "originProgramId": "27524",
+                        "selfRatedContent": true,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/HvEb1vG9UDeQn19JPXQqHLzaJHQ=/362x536/https://s2-globo-play.glbimg.com/nVzbgyy8Dq7HIZnQprAflLob05c=/https://s2.glbimg.com/Mr4EphOIGthcf-q_sS5bof00kaE=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/h/a/dezLczSMCAtTScscBzNw/2025-4649-corpo-a-corpo-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/GbHDQ6rIW9fJEKJlsamUoAVenD0=/360x0/https://s2-globo-play.glbimg.com/_-hKW8PYkjeNqVqhrH4ag6yPd_E=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/rPuWVLds9hlmmg5tNmoCdY9CVec=/https://s2.glbimg.com/_Io6Bz0nTy48hexesXvw1bIgaC4=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/n/b/J6cp84RnyN2b6rJ3Ukcw/2025-4649-corpo-a-corpo-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "L",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Suspense",
+                            "Drama"
+                        ],
+                        "releaseYear": 1984,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "6Nrw5MpyVt",
+                        "type": "TV_PROGRAM",
+                        "slug": "esplendor",
+                        "headline": "Esplendor",
+                        "originProgramId": "28639",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/VTDEG_klfvZtx98S6aVVEx1let4=/362x536/https://s2-globo-play.glbimg.com/bikwMxLre5qpnDRSO26xcB0nZFA=/https://s2.glbimg.com/lnbanUOeB-aa29-_Exd-vE47-aU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/G/2/3MpqnfT3KOgAd105A5Rg/2025-4850-esplendor-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/Z-QvvPr27BW_tDWWDwQsr-JsHIA=/360x0/https://s2-globo-play.glbimg.com/_m5KHYrVbipVXg0MtmLAKE4Ew9o=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/m1sFTPS0d5pC04SgdlOReLHcN8s=/https://s2.glbimg.com/z_blrEw9cBd5Qha6RRLiM8NhUCw=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/4/P/eq30gkRZ69fZew1dZ72Q/2025-4850-esplendor-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "L",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama",
+                            "Época"
+                        ],
+                        "releaseYear": 2000,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "f7mh7mNxXF",
+                        "type": "TV_PROGRAM",
+                        "slug": "vale-tudo-1988",
+                        "headline": "Vale Tudo (1988)",
+                        "originProgramId": "2626",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/FFS2w4xEIx8YxmTmjE-TaESL6-0=/362x536/https://s2-globo-play.glbimg.com/PYRa9e5E6P838FY4jo66OWzvP6s=/https://s2.glbimg.com/rhNoZ958a7SxtIvYd7OHZ-JmFa0=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/Z/J/Njoz8VSUaARyC9Eug9bQ/2025-4628-vale-tudo-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/iMHtUS2k4SyKlu31a8oMNJT_wXk=/360x0/https://s2-globo-play.glbimg.com/NFCWdwqaHTSdj4Rsu7QLVa1XBeY=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/iGYHsDTwJYJq4fTYbaHZV29A-mQ=/https://s2.glbimg.com/wkghH3zPM1PI6-aH3aWMGok-zCI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/E/d/lCkQjbTNG28eAvAHCyBQ/2025-4628-vale-tudo-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "14",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Drama"
+                        ],
+                        "releaseYear": 1988,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "WPCFdYgGhr",
+                        "type": "TV_PROGRAM",
+                        "slug": "perigosas-peruas",
+                        "headline": "Perigosas Peruas",
+                        "originProgramId": "28638",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/Ub6yMjckvIrfLxYt9LLKpI2uYHo=/362x536/https://s2-globo-play.glbimg.com/Vw8qAULSMiRAratVIqOKcjrvDgk=/https://s2.glbimg.com/FuOuO7qKPOm2gC3wHRGaRapiydc=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/k/z/j41PNOQSmi1aBmHqEixA/2025-4616-perigosas-peruas-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/dHXMs2VeVeMz6-Ba4qz9nlTuoJk=/360x0/https://s2-globo-play.glbimg.com/QAl4JeczDok75tIhLl1DvevuRd4=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/Yo9GAcHvNI1_bwYyG-Qx2w4r1Bg=/https://s2.glbimg.com/nSJ6AnStg7llsLjzzPM93JaNdV8=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/Q/D/NYbjncTButLZfuycvw4w/2025-4616-perigosas-peruas-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "L",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Romance",
+                            "Comédia",
+                            "Drama"
+                        ],
+                        "releaseYear": 1992,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "BnRgPc52yR",
+                        "type": "TV_PROGRAM",
+                        "slug": "zaza",
+                        "headline": "Zazá",
+                        "originProgramId": "28403",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/QvOD7yOpk7pX-X7pZOnEAIeKLT0=/362x536/https://s2-globo-play.glbimg.com/KYmgRuGc2G_DXqI5enpqos6J9kw=/https://s2.glbimg.com/Be2aD5r5NQw2aNdGGww-ut7w2iA=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2024/8/f/wvgZ38SgWoZB2lbVJLOA/2024-4566-zaza-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/Usd_ZRQ_YuyAVJurwfOOKwoN1wo=/360x0/https://s2-globo-play.glbimg.com/en5PjQdvrLEovBKy1hPEtufOCTI=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/fxnS3_PZrmpD53LCk9ON-gZG2UE=/https://s2.glbimg.com/DJUnjlBetjb7uOe9OU5ERQ29XKU=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2024/e/p/5LQa9hRvmL1zcxfMLNQQ/2024-4566-zaza-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "L",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Comédia",
+                            "Drama",
+                            "Fantasia"
+                        ],
+                        "releaseYear": 1997,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    },
+                    {
+                        "titleId": "Jhn1mHP5VH",
+                        "type": "TV_PROGRAM",
+                        "slug": "babilonia",
+                        "headline": "Babilônia",
+                        "originProgramId": "8483",
+                        "selfRatedContent": false,
+                        "subset": {
+                            "id": "novelas",
+                            "__typename": "Subset"
+                        },
+                        "poster": {
+                            "web": "https://s2-globo-play.glbimg.com/eC1HvauIxBAOPvwX39-3W4Sp43I=/362x536/https://s2-globo-play.glbimg.com/fLrkXia47O-lWsME1lcjw7hATRY=/https://s2.glbimg.com/qJieNF8kLYcZVnWMCgff8nserYI=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2024/Q/X/fHTLkDQsOzu2c7cs8D7g/2024-4593-babilonia-poster.jpg",
+                            "__typename": "Poster"
+                        },
+                        "cover": {
+                            "portrait": "https://s2-globo-play.glbimg.com/svBRnF37xRm4VIkW8umYEtd2cxE=/360x0/https://s2-globo-play.glbimg.com/-enmp3FMjT7OmRzJaQwPl6CddlM=/1815x0:3840x2160/https://s2-globo-play.glbimg.com/aN_UQBsjYSVgyQmCIaZT0JPRdeQ=/https://s2.glbimg.com/BRp99q4tndMRaMEFZMquzgeJ5gQ=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2024/N/C/f0IBkYRdWDnmlW5AuC1g/2024-4593-babilonia-background.jpg",
+                            "__typename": "Cover"
+                        },
+                        "contentRating": "12",
+                        "format": "SOAP_OPERA",
+                        "genresNames": [
+                            "Ação",
+                            "Suspense",
+                            "Drama",
+                            "Crime"
+                        ],
+                        "releaseYear": 2015,
+                        "contentBrand": null,
+                        "originalContent": false,
+                        "subscriptionServices": [
+                            {
+                                "id": "5c5bcfec-7695-486a-90f0-1f02e5112bee",
+                                "name": "Globoplay",
+                                "__typename": "SubscriptionService"
+                            }
+                        ],
+                        "markup": null,
+                        "__typename": "Title"
+                    }
+                ],
+                "__typename": "OfferItemsCollection"
+            },
+            "__typename": "Offer"
+        }
+    }
+}

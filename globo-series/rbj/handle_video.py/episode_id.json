@@ -1,0 +1,998 @@
+{
+    "data": {
+        "title": {
+            "titleId": "Sg7Y2Z1CsJ",
+            "headline": "Vale Tudo",
+            "structure": {
+                "episodes": {
+                    "page": 3,
+                    "nextPage": null,
+                    "total": 110,
+                    "resources": [
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "30 min",
+                                "headline": "Capítulo de 03/05/2025",
+                                "description": "Odete comunica a Marco Aurélio que colocará Ivan como encarregado dos projetos culturais que Heleninha escolherá para a TCA financiar. Luciano alerta Ivan sobre as intenções de Odete. Ivan fica constrangido ao entrar no restaurante com Heleninha e se deparar com Leila e Renato. Raquel e Ivan se surpreendem com o conteúdo da mala.",
+                                "duration": 1813095,
+                                "id": "13568286",
+                                "thumb": "https://s03.video.glbimg.com/x216/13568286.jpg",
+                                "relatedEpisodeNumber": 30,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "51 min",
+                                "headline": "Capítulo de 02/05/2025",
+                                "description": "Heleninha avisa a Afonso que Celina a convenceu de participar do jantar. Ivan elogia os quadros de Heleninha. Fátima manda para Odete uma matéria com foto de Solange. Raquel comenta com Aldeíde sobre sua desconfiança do interesse de Odete em Ivan. Gervásio segue Fátima. Heleninha transparece a Celina que gostou de Ivan. Solange conta a Fátima e a Sardinha como foi o jantar com Odete.",
+                                "duration": 3091730,
+                                "id": "13566512",
+                                "thumb": "https://s01.video.glbimg.com/x216/13566512.jpg",
+                                "relatedEpisodeNumber": 29,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "51 min",
+                                "headline": "Capítulo de 01/05/2025",
+                                "description": "Odete tenta se acertar com Heleninha. Afonso avisa a Odete e Celina que levará Solange para jantar em casa. Ivan acalma Tiago, que tem uma crise de pânico ao ficar preso no elevador. Odete convida Ivan para jantar na casa de Celina. Maria de Fátima arma plano contra Solange. Heleninha escuta Odete conversando com Celina sobre sua ideia de tornar Ivan seu pretendente.",
+                                "duration": 3079593,
+                                "id": "13563464",
+                                "thumb": "https://s01.video.glbimg.com/x216/13563464.jpg",
+                                "relatedEpisodeNumber": 28,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "39 min",
+                                "headline": "Capítulo de 30/04/2025",
+                                "description": "Ivan é demitido por Odete. César tem a impressão de estar sendo seguido. Raquel decide arriscar e abrir o restaurante com Poliana. Odete readmite Ivan, reconhecendo a eficiência do funcionário. Odete não gosta de Solange. Olavo cobra de César o fato de ter sido abordado em sua casa por um homem desconhecido. Afonso discute com Odete. Fátima vê César com uma mulher no restaurante.",
+                                "duration": 2377015,
+                                "id": "13560769",
+                                "thumb": "https://s02.video.glbimg.com/x216/13560769.jpg",
+                                "relatedEpisodeNumber": 27,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "49 min",
+                                "headline": "Capítulo de 29/04/2025",
+                                "description": "Celina repreende um comentário de Odete sobre Heleninha. Odete demonstra não gostar da visita surpresa de Tiago. César se apavora ao ser surpreendido por Gervásio em sua casa, cobrando os dólares. Tiago pede a Odete para não internar Heleninha. Gervásio diz a Marco Aurélio que César não está com os dólares do executivo. Odete questiona a presença de Ivan em uma reunião de diretores da TCA.",
+                                "duration": 2999722,
+                                "id": "13557284",
+                                "thumb": "https://s01.video.glbimg.com/x216/13557284.jpg",
+                                "relatedEpisodeNumber": 26,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "44 min",
+                                "headline": "Capítulo de 28/04/2025",
+                                "description": "Celina tenta tranquilizar Heleninha, que se abala ao saber da chegada de Odete ao Brasil. Eunice comenta com Bartolomeu que achou errada a forma como Ivan conduziu a ideia da compra das aeronaves chinesas. Maria de Fátima diz a César que se tornará triatleta para se aproximar de Afonso. Renato e Leila sentem atração mútua. Sardinha questiona Renato sobre Leila. Odete chega à casa de Celina.",
+                                "duration": 2691096,
+                                "id": "13553795",
+                                "thumb": "https://s04.video.glbimg.com/x216/13553795.jpg",
+                                "relatedEpisodeNumber": 25,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "46 min",
+                                "headline": "Capítulo de 26/04/2025",
+                                "description": "Afonso briga com Solange depois que ela o avisa que não poderá viajar. Marco Aurélio promete a Tiago que regularizará sua guarda com Heleninha. Maria de Fátima sabota Solange. Poliana faz uma proposta a Raquel, e Ivan a incentiva. Poliana avisa a Raquel que eles ganharam a concorrência do restaurante. Raquel alerta Ivan sobre um acidente com uma aeronave da TCA.",
+                                "duration": 2771369,
+                                "id": "13550240",
+                                "thumb": "https://s01.video.glbimg.com/x216/13550240.jpg",
+                                "relatedEpisodeNumber": 24,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "50 min",
+                                "headline": "Capítulo de 25/04/2025",
+                                "description": "Maria de Fátima rejeita o dinheiro do seguro de vida e a mala de Rubinho. Gilda confessa que roubou Raquel e agradece pela segunda chance. Marco Aurélio se apossa da ideia de Ivan sobre a compra das aeronaves chinesas. Gervásio invade a casa de César e o ameaça. Solange faz as pazes com Afonso e promete viajar com ele. Gervásio avisa a Marco Aurélio que tem certeza de que César não sabe nada.",
+                                "duration": 3022035,
+                                "id": "13548373",
+                                "thumb": "https://s02.video.glbimg.com/x216/13548373.jpg",
+                                "relatedEpisodeNumber": 23,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "49 min",
+                                "headline": "Capítulo de 24/04/2025",
+                                "description": "Maria de Fátima e César acreditam que a mala era de Rubinho. Daniela ajuda Raquel a arrumar os pertences de Rubinho e encontram sua mala. Marco Aurélio demite Marcondes e manda Freitas procurar César. Maria de Fátima se aproxima de Afonso. Renato sugere que Leila concorra ao cargo de secretária em sua agência. Maria de Fátima e César fazem planos para separar Afonso e Solange.",
+                                "duration": 2996510,
+                                "id": "13545103",
+                                "thumb": "https://s04.video.glbimg.com/x216/13545103.jpg",
+                                "relatedEpisodeNumber": 22,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "30 min",
+                                "headline": "Capítulo de 23/04/2025",
+                                "description": "César e Maria de Fátima tentam abrir a mala que o modelo roubou quando desembarcou do jatinho. Marco Aurélio desconfia de Marcondes. Renato procura Raquel para oferecer ajuda. Marcondes conta a Marco Aurélio que deu carona a César e que talvez ele tenha trocado a mala por engano. Maria de Fátima e César se surpreendem com o conteúdo da mala roubada.",
+                                "duration": 1810967,
+                                "id": "13541929",
+                                "thumb": "https://s02.video.glbimg.com/x216/13541929.jpg",
+                                "relatedEpisodeNumber": 21,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "52 min",
+                                "headline": "Capítulo de 22/04/2025",
+                                "description": "César pede uma carona a Marcondes para o Rio. Aldeíde conta a Ivan sobre Rubinho. Renato fica arrasado ao saber de Rubinho. Tiago se nega a contar para Heleninha o que o fez fugir. Fátima pede ajuda a César para conquistar Afonso, a fim de que ambos possam usufruir do dinheiro da família Roitman. Marco Aurélio e Freitas descobrem que a mala com os dólares desapareceu.",
+                                "duration": 3152916,
+                                "id": "13538878",
+                                "thumb": "https://s03.video.glbimg.com/x216/13538878.jpg",
+                                "relatedEpisodeNumber": 20,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "50 min",
+                                "headline": "Capítulo de 21/04/2025",
+                                "description": "Raquel tem uma dura conversa com Maria de Fátima. Tiago dispensa Vera ao descobrir que o pai a pagou para ficar com ele. Maria de Fátima diz a César que Afonso olhou para ela com interesse. Cláudia recebe orientações de Marco Aurélio para entregar uma mala a um contato em Porto Rico. Rubinho coloca sua etiqueta em outra mala. Raquel se despede de Rubinho. Rubinho passa mal durante o voo.",
+                                "duration": 3032880,
+                                "id": "13535581",
+                                "thumb": "https://s02.video.glbimg.com/x216/13535581.jpg",
+                                "relatedEpisodeNumber": 19,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "51 min",
+                                "headline": "Capítulo de 19/04/2025",
+                                "description": "Maria de Fátima ignora Rubinho. Ivan cobra de Raquel ajuda para se encontrar com Marco Aurélio. Fernanda diz a Flávia que André quer um compromisso sério com ela. Ivan insiste para Raquel ajudá-lo, e eles acabam discutindo. Rubinho deixa claro a Maria de Fátima que, se ela destratar Raquel, contará toda a verdade sobre a filha. Maria de Fátima é surpreendida por Raquel, diante de Solange.",
+                                "duration": 3083348,
+                                "id": "13532831",
+                                "thumb": "https://s04.video.glbimg.com/x216/13532831.jpg",
+                                "relatedEpisodeNumber": 18,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "49 min",
+                                "headline": "Capítulo de 18/04/2025",
+                                "description": "Maria de Fátima se diverte quando César lhe pede para não atrapalhar seu trabalho. Solange gosta do jeito de Rubinho. Laís e Cecília se oferecem para mostrar Paraty a Raquel e Ivan. Raquel se incomoda ao ver o interesse de Ivan apenas para conhecer Marco Aurélio. Maria de Fátima garante a César que se casará com Afonso Roitman. Maria de Fátima fica atordoada quando Afonso lhe apresenta Rubinho.",
+                                "duration": 2940705,
+                                "id": "13530905",
+                                "thumb": "https://s02.video.glbimg.com/x216/13530905.jpg",
+                                "relatedEpisodeNumber": 17,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "48 min",
+                                "headline": "Capítulo de 17/04/2025",
+                                "description": "Rubinho conta a Raquel sobre a apresentação que vai fazer em Paraty. Marco Aurélio pede desculpas a Tiago. Interessado em fazer contato com Marco Aurélio, Ivan tenta convencer Raquel a aceitar o convite de Laís e Cecília para ir a Paraty. Maria de Fátima consegue ficar hospedada no quarto de hotel das secretárias da Tomorrow. Renato presenteia Rubinho com uma nova mala, igual à de Marco Aurélio.",
+                                "duration": 2932071,
+                                "id": "13527955",
+                                "thumb": "https://s04.video.glbimg.com/x216/13527955.jpg",
+                                "relatedEpisodeNumber": 16,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "28 min",
+                                "headline": "Capítulo de 16/04/2025",
+                                "description": "Raquel e Ivan fazem as pazes. Renato aparta uma briga entre Marco Aurélio e Tiago. Maria de Fátima não gosta das críticas de Solange às suas postagens de vídeo. Tiago escuta Marco Aurélio dizer que Helena colocou sua vida em risco quando incendiou a casa. Tiago perdoa Helena. Marco Aurélio decide usar Rubinho como testa-de-ferro em uma transação ilegal.",
+                                "duration": 1692058,
+                                "id": "13524657",
+                                "thumb": "https://s02.video.glbimg.com/x216/13524657.jpg",
+                                "relatedEpisodeNumber": 15,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "50 min",
+                                "headline": "Capítulo de 15/04/2025",
+                                "description": "Raquel discute com Ivan. Rubinho fica emocionado com a atitude de Renato. Tiago se oferece para ajudar na festa de aniversário de André. Otávio se interessa por Raquel. Maria de Fátima é dispensada pelo produtor depois de destratar a maquiadora. César se esconde de Maria de Fátima. César conta a Olavo que conseguiu um emprego como instrutor aquático em um hotel. Ivan sente ciúmes de Raquel.",
+                                "duration": 3013695,
+                                "id": "13521409",
+                                "thumb": "https://s02.video.glbimg.com/x216/13521409.jpg",
+                                "relatedEpisodeNumber": 14,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "48 min",
+                                "headline": "Capítulo de 14/04/2025",
+                                "description": "Maria de Fátima mente para Solange sobre a condição financeira da mãe. Rubinho inventa para Renato que mora em Nova Iorque. Fátima forja uma situação para atrair Afonso, e Solange vê. Consuêlo deixa Ivan furioso ao contar que Marco Aurélio se apossou de sua ideia para a empresa. Renato descobre que Rubinho não mora em Nova Iorque. Raquel questiona Ivan por ter posto o emprego de Aldeíde em risco.",
+                                "duration": 2884081,
+                                "id": "13517465",
+                                "thumb": "https://s02.video.glbimg.com/x216/13517465.jpg",
+                                "relatedEpisodeNumber": 13,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "48 min",
+                                "headline": "Capítulo de 12/04/2025",
+                                "description": "Claudia flagra Marco Aurélio com Maria de Fátima. Maria de Fátima diz a Solange que ela não prioriza o namoro. Maria de Fátima procura Rubinho para pedir ao pai que convença Raquel a parar de vender sanduíches. Raquel discute com Maria de Fátima. Afonso se surpreende com Solange. Renato reencontra Rubinho. Maria de Fátima surpreende Sardinha e Solange quando eles comentam sobre ela.",
+                                "duration": 2886066,
+                                "id": "13513460",
+                                "thumb": "https://s01.video.glbimg.com/x216/13513460.jpg",
+                                "relatedEpisodeNumber": 12,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "49 min",
+                                "headline": "Capítulo de 11/04/2025",
+                                "description": "Maria Fátima finge não conhecer Raquel. Ivan entrega o relatório para Consuelo fazer chegar a Teixeira. Poliana consola Raquel, que se sente humilhada pela filha. Fátima empresta dinheiro para César e pede para o modelo se afastar dela. Solange convida Maria de Fátima para a festa de Renato. Marco Aurélio se interessa por Maria de Fátima. Ivan declara seu amor por Raquel.",
+                                "duration": 2942246,
+                                "id": "13511320",
+                                "thumb": "https://s01.video.glbimg.com/x216/13511320.jpg",
+                                "relatedEpisodeNumber": 11,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "48 min",
+                                "headline": "Capítulo de 10/04/2025",
+                                "description": "César confirma que roubou Maria de Fátima. Raquel vende sanduíches na praia. Maria de Fátima sente inveja de Solange e Afonso. Rubinho conta a Ivan que foi convidado para trabalhar em Nova Iorque. Ivan comenta com a família que pode descobrir um sistema de corrupção dentro da TCA. Maria de Fátima se depara com Raquel vendendo sanduíche para Solange na praia.",
+                                "duration": 2889319,
+                                "id": "13507727",
+                                "thumb": "https://s04.video.glbimg.com/x216/13507727.jpg",
+                                "relatedEpisodeNumber": 10,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "29 min",
+                                "headline": "Capítulo de 09/04/2025",
+                                "description": "Raquel diz a Ivan que vai provar a Maria de Fátima que é possível ganhar a vida honestamente. Afonso reclama do trabalho excessivo de Solange. Raquel aceita morar com Aldeíde e Poliana. Solange diz a Maria Fátima que, para vencer na vida, é preciso estudar. Maria de Fátima segue Olavo e descobre onde César mora. Maria de Fátima confronta o modelo sobre o dinheiro que lhe roubou.",
+                                "duration": 1777684,
+                                "id": "13504427",
+                                "thumb": "https://s04.video.glbimg.com/x216/13504427.jpg",
+                                "relatedEpisodeNumber": 9,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "45 min",
+                                "headline": "Capítulo de 08/04/2025",
+                                "description": "Maria de Fátima despreza Raquel. Maria de Fátima se sente humilhada por não ter sido escolhida para a campanha da Tomorrow. Solange consola Maria de Fátima e a convida para morar no seu apartamento. Raquel diz a Ivan que voltará para Foz do Iguaçu. Maria de Fátima se interessa por Afonso ao saber que ele é herdeiro do Grupo Almeida Roitman. Raquel se revolta diante de pedido de Maria de Fátima.",
+                                "duration": 2700965,
+                                "id": "13501067",
+                                "thumb": "https://s04.video.glbimg.com/x216/13501067.jpg",
+                                "relatedEpisodeNumber": 8,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "48 min",
+                                "headline": "Capítulo de 07/04/2025",
+                                "description": "Maria de Fátima pede a Raquel que se mantenha afastada de sua vida. Maria de Fátima descobre que César fugiu levando seu dinheiro. Solange e Sardinha decidem procurar alguém para dividir aluguel do apartamento. Eunice e Bartolomeu convidam Leila e Bruno para morar com eles. Bernardo expulsa Maria de Fátima e Franklin de seu apartamento. Raquel e Poliana presenciam Maria de Fátima sendo humilhada.",
+                                "duration": 2930360,
+                                "id": "13497894",
+                                "thumb": "https://s03.video.glbimg.com/x216/13497894.jpg",
+                                "relatedEpisodeNumber": 7,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "LOGGED_IN",
+                                "formattedDuration": "45 min",
+                                "headline": "Capítulo de 05/04/2025",
+                                "description": "Maria de Fátima destrata Raquel, e Ivan a ampara. César vai para a festa de uma socialite levando o convite de Maria de Fátima. Heleninha decide ir à mesma festa, incentivada por Tiago. Solange e Afonso ajudam Maria de Fátima a entrar na festa. Maria de Fátima se impressiona com Afonso. César deixa claro a Maria de Fátima que está acompanhado na festa. Marco Aurélio é hostil com Heleninha.",
+                                "duration": 2753200,
+                                "id": "13493883",
+                                "thumb": "https://s04.video.glbimg.com/x216/13493883.jpg",
+                                "relatedEpisodeNumber": 6,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-gratuito:media-rights",
+                                        "aeid": "globoplay-gratuito",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "LOGGED_IN",
+                                "formattedDuration": "48 min",
+                                "headline": "Capítulo de 04/04/2025",
+                                "description": "Maria de Fátima procura o pai e os dois discutem. Marco Aurélio deixa bem claro para sua irmã, Cecília, que Heleninha deve ficar longe de Tiago. Rubinho entrega a Raquel o endereço de Maria de Fátima. César convida Maria de Fátima para ficar na casa de um amigo onde ele e Franklin estão hospedados. Marco Aurélio se nega a receber Heleninha na TCA. Tiago entra em crise.",
+                                "duration": 2884873,
+                                "id": "13491914",
+                                "thumb": "https://s03.video.glbimg.com/x216/13491914.jpg",
+                                "relatedEpisodeNumber": 4,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-gratuito:media-rights",
+                                        "aeid": "globoplay-gratuito",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "LOGGED_IN",
+                                "formattedDuration": "50 min",
+                                "headline": "Capítulo de 03/04/2025",
+                                "description": "Aldeíde e Poliana acolhem Raquel. Solange elogia Afonso para Sardinha. Afonso dá apoio a Heleninha e diz à irmã que ficará no Brasil. Rubinho fica chocado ao saber que a filha vendeu o apartamento onde Raquel morava, e tenta fazer a ex-mulher enxergar que Maria de Fátima é mau-caráter. Maria de Fátima esnoba César e Franklin ao entrar na festa da Tomorrow. Solange e Afonso se encontram na festa.",
+                                "duration": 3035483,
+                                "id": "13488531",
+                                "thumb": "https://s04.video.glbimg.com/x216/13488531.jpg",
+                                "relatedEpisodeNumber": 4,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-gratuito:media-rights",
+                                        "aeid": "globoplay-gratuito",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "LOGGED_IN",
+                                "formattedDuration": "34 min",
+                                "headline": "Capítulo de 02/04/2025",
+                                "description": "César demonstra a Franklin seu interesse por Maria de Fátima por achar que a jovem é rica. Ivan presencia Raquel sendo assaltada. Renato afirma a Heleninha que Marco Aurélio pode repensar a decisão do juiz sobre seus encontros com Tiago. Ivan consegue recuperar a bolsa de Raquel. Maria de Fátima aciona o alarme de incêndio do andar da Tomorrow para conseguir um convite para a festa da agência.",
+                                "duration": 2086409,
+                                "id": "13485303",
+                                "thumb": "https://s04.video.glbimg.com/x216/13485303.jpg",
+                                "relatedEpisodeNumber": 3,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-gratuito:media-rights",
+                                        "aeid": "globoplay-gratuito",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "LOGGED_IN",
+                                "formattedDuration": "48 min",
+                                "headline": "Capítulo de 01/04/2025",
+                                "description": "Raquel acredita que Maria de Fátima foi induzida por alguém a vender a casa e fugir. Ivan pede a Aldeíde para não contar ao pai a sua atual situação no novo emprego. Raquel decide ir para o Rio à procura da filha. Heleninha confessa à terapeuta que está com medo de voltar para casa. César demonstra interesse em se encontrar com Maria de Fátima ao saber que ela está hospedada no Copacabana Palace.",
+                                "duration": 2897136,
+                                "id": "13482091",
+                                "thumb": "https://s04.video.glbimg.com/x216/13482091.jpg",
+                                "relatedEpisodeNumber": 2,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-gratuito:media-rights",
+                                        "aeid": "globoplay-gratuito",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "LOGGED_IN",
+                                "formattedDuration": "51 min",
+                                "headline": "Capítulo de 31/03/2025",
+                                "description": "Maria de Fátima reclama com sua mãe, Raquel, da vida simples que levam em Foz do Iguaçu. Maria de Fátima se interessa por César, um modelo, e finge ser hóspede do hotel onde Raquel trabalha. Raquel fica arrasada quando Maria de Fátima pede para a mãe fingir que não a conhece. A família de Ivan comemora uma conquista do executivo. César e Maria de Fátima ficam juntos.",
+                                "duration": 3064095,
+                                "id": "13478601",
+                                "thumb": "https://s02.video.glbimg.com/x216/13478601.jpg",
+                                "relatedEpisodeNumber": 1,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-gratuito:media-rights",
+                                        "aeid": "globoplay-gratuito",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        }
+                    ],
+                    "__typename": "EpisodeCollection"
+                },
+                "__typename": "EpisodeListStructure"
+            },
+            "__typename": "Title"
+        }
+    }
+}

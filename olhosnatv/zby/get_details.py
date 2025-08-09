@@ -47,3 +47,4 @@ if __name__ == "__main__":
     with open(path / 'm3u8_urls.json', 'w') as f:
         json.dump(m3u8_urls,f)
     print(f"成功获取到{j}个视频的m3u8地址")
+//ul/li[@class="subheader devicepadding"]这是获取频道页的节目单日期，//ul//a[@class="devicepadding"]/div[@class="lileft time"]是获取时间，

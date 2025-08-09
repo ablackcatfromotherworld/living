@@ -1,0 +1,1590 @@
+{
+    "data": {
+        "title": {
+            "titleId": "Sg7Y2Z1CsJ",
+            "headline": "Vale Tudo",
+            "format": "SOAP_OPERA",
+            "slug": "vale-tudo",
+            "type": "TV_PROGRAM",
+            "description": "A história de uma mãe e uma filha com visões opostas sobre o caminho para se vencer na vida volta a conduzir o público a uma jornada atual sobre caráter, ética e honestidade.",
+            "epgActive": true,
+            "logo": {
+                "web": "https://s2-globo-play.glbimg.com/5JMJLd1SPEQCxjNbYyXGH3peqSI=/300x169/https://s2-globo-play.glbimg.com/v8KbVHKDlfoFlzMlCg97h1ZdwtM=/https://s2.glbimg.com/awZ1QhPgUQy0yGUfSLn3MBYelho=/i.s3.glbimg.com/v1/AUTH_c3c606ff68e7478091d1ca496f9c5625/internal_photos/bs/2025/e/e/5ddiWBROqxBUFYmA2A6Q/2024-4722-vale-tudo-logo.png",
+                "__typename": "Logo"
+            },
+            "structure": {
+                "episodes": {
+                    "nextPage": 2,
+                    "hasNextPage": true,
+                    "page": 1,
+                    "perPage": 40,
+                    "resources": [
+                        {
+                            "video": {
+                                "id": "13821128",
+                                "headline": "Capítulo de 06/08/2025",
+                                "kind": "episode",
+                                "description": "Vale Tudo",
+                                "thumb": "https://s01.video.glbimg.com/x216/13821128.jpg",
+                                "duration": 1859933,
+                                "formattedDuration": "30 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-08-07T00:35:17.000Z",
+                                "fullyWatchedThreshold": 1673940,
+                                "relatedEpisodeNumber": 111,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13817951",
+                                "headline": "Capítulo de 05/08/2025",
+                                "kind": "episode",
+                                "description": "Odete obriga Fátima a cancelar seu perfil das redes sociais. Odete pede ajuda a Mário Sérgio para destruir a reputação da Paladar. Walter comenta com César seu receio de perder Odete. Mário Sérgio e Odete ficam juntos. Fátima conta a César seus planos para engravidar de Afonso. Afonso se embriaga, e Solange o ajuda. Afonso acorda sobressaltado na casa de Solange.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13817951.jpg",
+                                "duration": 3051524,
+                                "formattedDuration": "50 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-08-06T00:17:50.000Z",
+                                "fullyWatchedThreshold": 2746372,
+                                "relatedEpisodeNumber": 110,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13814808",
+                                "headline": "Capítulo de 04/08/2025",
+                                "kind": "episode",
+                                "description": "Raquel expulsa Odete de sua casa. Odete garante a Walter que acabará com a empresa de Raquel. Sardinha conta a Solange que viu Maria de Fátima com César. Consuêlo se preocupa quando Raquel lhe pede para não revelar a Odete que Celina é sócia da Paladar. Consuêlo entrega a pesquisa que fez sobre a Paladar a Odete. Odete exige que Maria de Fátima apague o post que fez na TCA.",
+                                "thumb": "https://s01.video.glbimg.com/x216/13814808.jpg",
+                                "duration": 3062826,
+                                "formattedDuration": "51 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-08-05T00:20:07.000Z",
+                                "fullyWatchedThreshold": 2756543,
+                                "relatedEpisodeNumber": 109,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13810770",
+                                "headline": "Capítulo de 02/08/2025",
+                                "kind": "episode",
+                                "description": "Heleninha fica arrasada diante de Ivan. Marco Aurélio se incomoda com a admiração de Mário Sérgio por Leila. Renato se surpreende ao saber do interesse de Solange em ser mãe por meio de produção independente. Ivan conta a Raquel que seu casamento com Heleninha acabou. Sardinha flagra Fátima e César juntos no apart hotel. Odete procura Raquel.",
+                                "thumb": "https://s03.video.glbimg.com/x216/13810770.jpg",
+                                "duration": 2882104,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-08-03T00:46:26.000Z",
+                                "fullyWatchedThreshold": 2593894,
+                                "relatedEpisodeNumber": 108,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13809049",
+                                "headline": "Capítulo de 01/08/2025",
+                                "kind": "episode",
+                                "description": "Ivan resiste à chantagem de Odete. Raquel sugere a Ivan para os dois esperarem a situação com Heleninha se acalmar para ficarem juntos. Pascoal aceita trabalhar à noite no bar de Vasco. Solange sente vontade de ser mãe e sugere que Sardinha seja seu doador. Odete tenta subornar Fernanda para deixar Tiago, e Eunice confronta Odete. Renato nota a relação estremecida entre Solange e Sardinha.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13809049.jpg",
+                                "duration": 2878391,
+                                "formattedDuration": "47 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-08-02T00:22:46.000Z",
+                                "fullyWatchedThreshold": 2590552,
+                                "relatedEpisodeNumber": 107,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13805580",
+                                "headline": "Capítulo de 31/07/2025",
+                                "kind": "episode",
+                                "description": "Ivan conta a Luciano que Raquel comprou a empresa que fornece alimentação para os voos da TCA. Bartolomeu aconselha Raquel a contratar um gerente de compras. Odete fica sabendo por Luciano que Raquel está fornecendo comida de bordo para a TCA. Vasco inaugura o bar de karaokê. Celina desmaia ao saber que Odete pensa em investigar quem contou a Raquel sobre a empresa de alimentação de bordo.",
+                                "thumb": "https://s01.video.glbimg.com/x216/13805580.jpg",
+                                "duration": 3034173,
+                                "formattedDuration": "50 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-08-01T00:20:56.000Z",
+                                "fullyWatchedThreshold": 2730756,
+                                "relatedEpisodeNumber": 106,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13802313",
+                                "headline": "Capítulo de 30/07/2025",
+                                "kind": "episode",
+                                "description": "César sente inveja do carro que Walter ganha de Odete. Odete sonda Luciano sobre supostas relações extraconjugais de Ivan. Marco Aurélio convoca Ivan para representar a TCA em uma conferência e, coincidentemente, Bartolomeu sugere que Raquel vá ao mesmo evento. Raquel encontra Ivan na conferência, e Luciano fotografa. Heleninha pede a Odete para não prejudicar Ivan na TCA por causa da separação.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13802313.jpg",
+                                "duration": 1811468,
+                                "formattedDuration": "30 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-30T23:36:01.000Z",
+                                "fullyWatchedThreshold": 1630321,
+                                "relatedEpisodeNumber": 105,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13799116",
+                                "headline": "Capítulo de 29/07/2025",
+                                "kind": "episode",
+                                "description": "Odete faz questão de lembrar Ivan de uma das cláusulas do contrato de casamento. Heleninha foge de casa para beber e arruma confusão em um bar. Odete, Ivan, Tiago, Afonso e Celina ficam abalados ao ver o estado de Heleninha. Odete planeja a forma de saber se Ivan está traindo Heleninha com Raquel.",
+                                "thumb": "https://s01.video.glbimg.com/x216/13799116.jpg",
+                                "duration": 2990504,
+                                "formattedDuration": "49 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-30T01:36:07.000Z",
+                                "fullyWatchedThreshold": 2691454,
+                                "relatedEpisodeNumber": 104,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13795877",
+                                "headline": "Capítulo de 28/07/2025",
+                                "kind": "episode",
+                                "description": "Olavo e César escapam da polícia com a ajuda de Fátima. Raquel, Poliana e Celina comemoram um novo passo em seu negócio. Consuêlo comenta com Aldeíde sobre o mistério de André com a identidade da nova namorada. Ivan confessa a Bartolomeu que foi um erro se casar com Heleninha. Ivan decide se separar de Heleninha e se mudar para seu antigo apartamento. Heleninha flagra Raquel na casa de Ivan.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13795877.jpg",
+                                "duration": 2868966,
+                                "formattedDuration": "47 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-29T00:22:03.000Z",
+                                "fullyWatchedThreshold": 2582069,
+                                "relatedEpisodeNumber": 103,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13792101",
+                                "headline": "Capítulo de 26/07/2025",
+                                "kind": "episode",
+                                "description": "Odete gosta de César e pergunta a Marco Aurélio sobre o rapaz. Heleninha comenta com Celina que teve a impressão de que já conhecia o rosto de Olavo. Celina fica sabendo que a empresa que fornece comida para as aeronaves da TCA faliu, e sugere a Raquel e Poliana que a Paladar assuma o posto. Fátima fica preocupada ao saber por Heleninha que um dos homens que roubou o quadro foi identificado.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13792101.jpg",
+                                "duration": 2809448,
+                                "formattedDuration": "46 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-27T00:20:21.000Z",
+                                "fullyWatchedThreshold": 2528503,
+                                "relatedEpisodeNumber": 102,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13790071",
+                                "headline": "Capítulo de 25/07/2025",
+                                "kind": "episode",
+                                "description": "Ivan tenta acalmar Heleninha. Maria de Fátima sugere que César e Olavo roubem quadro de Heleninha. Marco Aurélio manda Mário Sérgio reduzir a verba de marketing. Eugênio descobre que o quadro de Heleninha foi roubado. Marco Aurélio se irrita quando o sheik decide fechar negócio diretamente com Odete. Olavo apresenta Walter para César. Odete se depara com César ao entrar na sala de Marco Aurélio.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13790071.jpg",
+                                "duration": 2880769,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-26T00:20:41.000Z",
+                                "fullyWatchedThreshold": 2592692,
+                                "relatedEpisodeNumber": 101,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13786701",
+                                "headline": "Capítulo de 24/07/2025",
+                                "kind": "episode",
+                                "description": "Poliana estranha o fato de Aldeíde querer ser sócia do clube onde André trabalha. Afonso tem um acidente com outro carro, sem saber que os passageiros são Fátima e César. Ivan questiona Marco Aurélio sobre verba de marketing da TCA. Jarbas avisa a Consuêlo que foi contratado para ser motorista dos Roitman. Fátima discute com Celina. Ivan intervém na discussão de Heleninha com Marco Aurélio.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13786701.jpg",
+                                "duration": 2891279,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-25T00:17:27.000Z",
+                                "fullyWatchedThreshold": 2602151,
+                                "relatedEpisodeNumber": 100,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13783157",
+                                "headline": "Capítulo de 23/07/2025",
+                                "kind": "episode",
+                                "description": "Maria de Fátima diz a César que a relação deles não é aberta. Odete evita Walter. Freitas sente ciúmes da relação de Marco Aurélio com Mário Sérgio. Solange tem uma crise de hipoglicemia, e Afonso a socorre.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13783157.jpg",
+                                "duration": 1795744,
+                                "formattedDuration": "29 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-24T00:27:35.000Z",
+                                "fullyWatchedThreshold": 1616170,
+                                "relatedEpisodeNumber": 99,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13779943",
+                                "headline": "Capítulo de 22/07/2025",
+                                "kind": "episode",
+                                "description": "Ana Clara avisa a Odete que precisou trancar a faculdade para cuidar de Nise. Odete demonstra impaciência com Walter. Walter flagra Odete com Mario Sérgio. Jarbas surpreende Consuêlo. Renato toma uma decisão sobre seu namoro com Solange. Jarbas sofre um acidente de carro. Heleninha percebe o clima hostil entre Ivan e Maria de Fátima. Maria de Fátima flagra César com uma modelo.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13779943.jpg",
+                                "duration": 2880352,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-23T00:15:36.000Z",
+                                "fullyWatchedThreshold": 2592317,
+                                "relatedEpisodeNumber": 98,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13776773",
+                                "headline": "Capítulo de 21/07/2025",
+                                "kind": "episode",
+                                "description": "Ivan revela a Raquel que ainda pensa nela. Solange cumpre a promessa que fez a Renato. Afonso procura Raquel, que deixa claro seu desinteresse por Fátima. Afonso observa um cartão da Paladar na bolsa de Celina. Raquel comenta com Poliana que Afonso não enxerga quem é a verdadeira Maria de Fátima. Odete observa dois carregadores de mudança na casa do sítio em que vive Leonardo.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13776773.jpg",
+                                "duration": 2929068,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-22T00:22:53.000Z",
+                                "fullyWatchedThreshold": 2636161,
+                                "relatedEpisodeNumber": 97,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13772831",
+                                "headline": "Capítulo de 19/07/2025",
+                                "kind": "episode",
+                                "description": "Odete ameaça internar Heleninha. Odete flagra Walter olhando as fotos de Leonardo. Marco Aurélio registra o galanteio que Mário Sérgio faz a Odete. Maria de Fátima se oferece para ajudar Leila no evento para o sheik. Ivan comenta com Luciano que sua vida era mais fácil quando estava com Raquel. Odete estranha ao chegar ao sítio e encontrar a casa vazia",
+                                "thumb": "https://s04.video.glbimg.com/x216/13772831.jpg",
+                                "duration": 2895325,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-20T00:18:03.000Z",
+                                "fullyWatchedThreshold": 2605793,
+                                "relatedEpisodeNumber": 96,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13770968",
+                                "headline": "Capítulo de 18/07/2025",
+                                "kind": "episode",
+                                "description": "Bartolomeu acolhe Ivan. Heleninha resolve ir atrás de Ivan. Bartolomeu deixa Heleninha na porta de casa. Celina passa mal com o sumiço de Heleninha e culpa Ivan. Heleninha amanhece numa praça em Vila Isabel, e Consuêlo a leva para casa. Raquel entra na casa de Consuêlo e se depara com e se depara com Heleninha. Raquel avisa a Ivan o paradeiro de Heleninha.",
+                                "thumb": "https://s01.video.glbimg.com/x216/13770968.jpg",
+                                "duration": 2891572,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-19T01:44:24.000Z",
+                                "fullyWatchedThreshold": 2602415,
+                                "relatedEpisodeNumber": 95,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13767585",
+                                "headline": "Capítulo de 17/07/2025",
+                                "kind": "episode",
+                                "description": "Heleninha causa constrangimento em todos ao chegar à casa de Bartolomeu. Fátima decide procurar Renato para ajudá-la a se tornar uma influencer profissional. Aldeíde visita Consuêlo na TCA e troca provocações com Marco Aurélio. Ivan descobre que Heleninha invadiu sua privacidade e decide dormir fora. Celina convence Ivan a ficar em casa, mas o executivo encontra Heleninha embriagada.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13767585.jpg",
+                                "duration": 2929234,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-18T00:17:09.000Z",
+                                "fullyWatchedThreshold": 2636311,
+                                "relatedEpisodeNumber": 94,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13764289",
+                                "headline": "Capítulo de 16/07/2025",
+                                "kind": "episode",
+                                "description": "Aldeíde chega ao Brasil. Heleninha confessa a Ana que tem medo de perder Ivan para Raquel. Celina se sente culpada diante de Heleninha, por conta da sociedade com Raquel. Fátima tenta fazer as pazes com Raquel. Bartolomeu convida Raquel e Poliana para jantar em sua casa. Ivan se surpreende ao ver Raquel na casa de seu pai. Heleninha vê a localização de Ivan em seu celular e resolve ir atrás dele.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13764289.jpg",
+                                "duration": 1809715,
+                                "formattedDuration": "30 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-17T00:37:14.000Z",
+                                "fullyWatchedThreshold": 1628744,
+                                "relatedEpisodeNumber": 93,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13761039",
+                                "headline": "Capítulo de 15/07/2025",
+                                "kind": "episode",
+                                "description": "Ivan e Heleninha discutem. Heleninha procura Raquel para tirar satisfações sobre a contratação de Bartolomeu. Ivan e Celina ficam preocupados com o sumiço de Heleninha. César manda um vídeo para Fátima, registrando Heleninha embriagada em uma pista de dança. Ivan e Afonso resgatam Heleninha. Tiago se desentende com Marco Aurélio. Heleninha flagra uma discussão entre Ivan e Celina.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13761039.jpg",
+                                "duration": 2872427,
+                                "formattedDuration": "47 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-16T00:19:07.000Z",
+                                "fullyWatchedThreshold": 2585184,
+                                "relatedEpisodeNumber": 92,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13757810",
+                                "headline": "Capítulo de 14/07/2025",
+                                "kind": "episode",
+                                "description": "Raquel contrata Bartolomeu como assessor de imprensa da Paladar. Maria de Fátima se faz de vítima para Afonso. Consuêlo reclama do casamento para Aldeíde. Bartolomeu prepara Raquel para dar uma entrevista. Marco Aurélio e Leila discordam sobre a função da clínica de estética. Poliana avisa a Raquel sobre a morte de Laudelino. Maria de Fátima fica furiosa ao saber que César está voltando.",
+                                "thumb": "https://s03.video.glbimg.com/x216/13757810.jpg",
+                                "duration": 2953509,
+                                "formattedDuration": "49 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-15T01:33:57.000Z",
+                                "fullyWatchedThreshold": 2658158,
+                                "relatedEpisodeNumber": 91,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13753935",
+                                "headline": "Capítulo de 12/07/2025",
+                                "kind": "episode",
+                                "description": "Heleninha e Eugênio percebem que Celina está mentindo. Renato se sente mal por ter que ceder às exigências de Marco Aurélio para fechar o contrato com a TCA e salvar a Tomorrow da falência. Raquel comenta com Poliana que eles precisam de um assessor de imprensa para cuidar da imagem da Paladar. Raquel fica sabendo por Ivan que Bartolomeu saiu da Tomorrow. Afonso e Maria de Fátima chegam de viagem.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13753935.jpg",
+                                "duration": 2875389,
+                                "formattedDuration": "47 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-13T01:24:45.000Z",
+                                "fullyWatchedThreshold": 2587850,
+                                "relatedEpisodeNumber": 90,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13752097",
+                                "headline": "Capítulo de 11/07/2025",
+                                "kind": "episode",
+                                "description": "Marco Aurélio lembra a Leila que a clínica de estética do casal é de fachada. Vasco compartilha com Consuêlo seu desejo de arrendar o bar que foi de Poliana. Renato comenta com Solange que corre o risco de fechar a Tomorrow, e demite Bartolomeu e Marieta. Raquel renova seu visual. Tiago e Fernanda dormem juntos. Solange cria um projeto de revista de bordo para Renato vender para a TCA.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13752097.jpg",
+                                "duration": 2891155,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-12T01:37:24.000Z",
+                                "fullyWatchedThreshold": 2602040,
+                                "relatedEpisodeNumber": 89,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13748832",
+                                "headline": "Capítulo de 10/07/2025",
+                                "kind": "episode",
+                                "description": "Maria de Fátima e Afonso se casam. Raquel e Poliana se desesperam ao perceber que o desumidificador da Paladar está em chamas. Solange confronta Fátima, sem perceber que está sendo gravada. Afonso manda segurança retirar Solange da festa. Poliana avisa a Raquel que eles perderam tudo que estava na Paladar. Maria de Fátima e Afonso viajam para Paris, e Odete embarca para a Europa com Walter.",
+                                "thumb": "https://s01.video.glbimg.com/x216/13748832.jpg",
+                                "duration": 2919475,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-11T01:40:15.000Z",
+                                "fullyWatchedThreshold": 2627528,
+                                "relatedEpisodeNumber": 88,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13745707",
+                                "headline": "Capítulo de 09/07/2025",
+                                "kind": "episode",
+                                "description": "Celina propõe a Raquel e a Poliana uma sociedade fantasma na Paladar. Odete estranha o fato de Raquel estar ligando para Celina. Raquel aceita as justificativas de Celina e decide formar uma sociedade para a compra da Paladar. Bartolomeu fica desconfiado ao ver documentos da contabilidade da TCA nas mãos de Leila. Maria de Fátima chega ao altar ao lado de Afonso.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13745707.jpg",
+                                "duration": 2965604,
+                                "formattedDuration": "49 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-10T00:20:15.000Z",
+                                "fullyWatchedThreshold": 2669044,
+                                "relatedEpisodeNumber": 87,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13742754",
+                                "headline": "Capítulo de 08/07/2025",
+                                "kind": "episode",
+                                "description": "Maria de Fátima conversa com César, se mostrando abalada pelo episódio com a mãe. Afonso age de forma protetora ao saber por Maria de Fátima do ocorrido. Maria de Fátima segue as orientações de Odete para conquistar Celina. Celina fica chocada ao saber por Cecília que foi Maria de Fátima quem roubou os documentos de Sarita. Afonso diz a Odete que não gostou da contratação de Mário Sérgio.",
+                                "thumb": "https://s03.video.glbimg.com/x216/13742754.jpg",
+                                "duration": 3064619,
+                                "formattedDuration": "51 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-09T02:56:43.000Z",
+                                "fullyWatchedThreshold": 2758157,
+                                "relatedEpisodeNumber": 86,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13739637",
+                                "headline": "Capítulo de 07/07/2025",
+                                "kind": "episode",
+                                "description": "Raquel expulsa Maria de Fátima de casa. Renato se preocupa ao perder dois contratos de trabalho. Raquel pede desculpas a Ivan, mas se decepciona quando ele afirma que viajará com Heleninha. Leila oferece sua habilidade como contadora para ajudar Marco Aurélio. Raquel se surpreende com reação de Odete ao defender Maria de Fátima de suas acusações. Raquel rasga o vestido de noiva de Maria de Fátima.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13739637.jpg",
+                                "duration": 2831679,
+                                "formattedDuration": "47 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-08T00:22:29.000Z",
+                                "fullyWatchedThreshold": 2548511,
+                                "relatedEpisodeNumber": 85,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13736163",
+                                "headline": "Capítulo de 05/07/2025",
+                                "kind": "episode",
+                                "description": "Aldeíde e Laudelino se casam e vão para Portugal. Pascoal e Gilda veem Fátima com César. Solange recebe o convite de casamento de Fátima e Afonso. Pascoal mostra a foto de Fátima com César para Poliana, e Gilda comenta que a filha de Raquel pode estar envolvida em seu atropelamento. Fátima briga com César. Gilda mostra a foto de Maria de Fátima com César para Raquel.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13736163.jpg",
+                                "duration": 2933531,
+                                "formattedDuration": "48 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-06T00:21:40.000Z",
+                                "fullyWatchedThreshold": 2640178,
+                                "relatedEpisodeNumber": 84,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13734503",
+                                "headline": "Capítulo de 04/07/2025",
+                                "kind": "episode",
+                                "description": "Ivan afirma a Raquel que Maria de Fátima pegou os dólares e devolveu para Marco Aurélio. Gilda reconhece Olavo e conta a Pascoal que o responsável por seu atropelamento estava na piscina da hípica com César. Heleninha e Ivan perdem o voo para Roma. Após enfrentar Marco Aurélio, Aldeíde pede demissão.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13734503.jpg",
+                                "duration": 2453443,
+                                "formattedDuration": "40 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-05T00:48:34.000Z",
+                                "fullyWatchedThreshold": 2208099,
+                                "relatedEpisodeNumber": 83,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13731293",
+                                "headline": "Capítulo de 03/07/2025",
+                                "kind": "episode",
+                                "description": "Raquel fica constrangida por mentir a Afonso sobre Rubinho. Maria de Fátima pede a Marco Aurélio que transfira César para a TCA em Paris. Odete deixa claro para Maria de Fátima que seu casamento com Afonso será feito com acordo pré-nupcial. Ivan nota a fragilidade de Freitas e o convida para sair, descobrindo que Marco Aurélio conseguiu a mala de um milhão de dólares de volta.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13731293.jpg",
+                                "duration": 3021618,
+                                "formattedDuration": "50 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-04T01:28:48.000Z",
+                                "fullyWatchedThreshold": 2719456,
+                                "relatedEpisodeNumber": 82,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13728043",
+                                "headline": "Capítulo de 02/07/2025",
+                                "kind": "episode",
+                                "description": "Odete diz a Afonso que Maria de Fátima está esperando outro tipo de pedido de casamento. Maria de Fátima fica incrédula ao ser pedida em casamento por Afonso. Maria de Fátima sugere a Raquel que faça um jantar para conhecer Afonso. Raquel sustenta as mentiras que Maria de Fátima conta a Afonso sobre sua família. Afonso vê uma foto de Rubinho e Raquel.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13728043.jpg",
+                                "duration": 3090562,
+                                "formattedDuration": "51 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-03T00:19:26.000Z",
+                                "fullyWatchedThreshold": 2781506,
+                                "relatedEpisodeNumber": 81,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13724938",
+                                "headline": "Capítulo de 01/07/2025",
+                                "kind": "episode",
+                                "description": "Fátima aconselha Raquel a esquecer Ivan. Eugênio acredita na mentira contada por Marina a mando de Fátima, e alerta Afonso sobre a suposta ameaça sofrida por sua namorada. Odete propõe executar o projeto de Afonso para a TCA, caso o filho se mude para Paris. Renato demite Mário Sérgio. Afonso se surpreende com a resposta negativa de Fátima ao convidá-la para morar com ele em Paris.",
+                                "thumb": "https://s03.video.glbimg.com/x216/13724938.jpg",
+                                "duration": 2442098,
+                                "formattedDuration": "40 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-01T23:49:31.000Z",
+                                "fullyWatchedThreshold": 2197888,
+                                "relatedEpisodeNumber": 80,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13721717",
+                                "headline": "Capítulo de 30/06/2025",
+                                "kind": "episode",
+                                "description": "Raquel vence o concurso e ganha um milhão de reais. Afonso convida Fátima para ficar uns dias em sua casa. Fátima manda Marco Aurélio cancelar a demissão de César. Leila demonstra insatisfação com a presença de Fátima na casa de Marco Aurélio. Heleninha fica empolgada com a ideia de ir para Roma fazer uma exposição ao saber que Ivan a acompanharia como diretor da nova unidade da TCA na cidade.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13721717.jpg",
+                                "duration": 2476215,
+                                "formattedDuration": "41 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-07-01T01:22:42.000Z",
+                                "fullyWatchedThreshold": 2228594,
+                                "relatedEpisodeNumber": 79,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13718084",
+                                "headline": "Capítulo de 28/06/2025",
+                                "kind": "episode",
+                                "description": "Raquel vence o concurso e ganha um milhão de reais. Afonso convida Maria de Fátima para ficar uns dias em sua casa. Maria de Fátima manda Marco Aurélio cancelar a demissão de César. Leila demonstra insatisfação com a presença de Maria de Fátima na casa de Marco Aurélio. Renato comunica a Bartolomeu que o cliente deseja que o jornalista assuma a campanha da sua marca.",
+                                "thumb": "https://s01.video.glbimg.com/x216/13718084.jpg",
+                                "duration": 3058155,
+                                "formattedDuration": "50 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-06-29T02:10:14.000Z",
+                                "fullyWatchedThreshold": 2752340,
+                                "relatedEpisodeNumber": 78,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13716467",
+                                "headline": "Capítulo de 27/06/2025",
+                                "kind": "episode",
+                                "description": "Fátima usa César para se vitimar e sensibilizar Raquel, e o plano acaba levando o modelo para a delegacia como stalker. Fátima manda cópia do boletim de ocorrência para Afonso para preocupar o namorado. César decide terminar a parceria com Fátima. Heleninha pede a Bartolomeu que descubra quem enviou a sua foto para a imprensa. Bartolomeu conta para Ivan quem enviou a foto de Heleninha.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13716467.jpg",
+                                "duration": 3146785,
+                                "formattedDuration": "52 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-06-28T01:36:45.000Z",
+                                "fullyWatchedThreshold": 2832107,
+                                "relatedEpisodeNumber": 77,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13713175",
+                                "headline": "Capítulo de 26/06/2025",
+                                "kind": "episode",
+                                "description": "Marco Aurélio exige que Heleninha converse com Tiago. Aldeíde defende Consuêlo das fofocas de Mariúche. Renato e Solange revelam para os funcionários que estão juntos. Odete propõe a Ivan uma promoção. Odete dá um tempo para Ivan pensar na proposta. Ivan conversa com Bartolomeu sobre a proposta de Odete. Maria de Fátima usa César para se vitimar e sensibilizar Raquel.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13713175.jpg",
+                                "duration": 2720442,
+                                "formattedDuration": "45 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-06-27T00:58:20.000Z",
+                                "fullyWatchedThreshold": 2448398,
+                                "relatedEpisodeNumber": 76,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13710024",
+                                "headline": "Capítulo de 25/06/2025",
+                                "kind": "episode",
+                                "description": "Estéban termina com Celina depois de ser acusado por ela de ter enviado a foto de Heleninha para a imprensa. Ivan se disponibiliza a participar das sessões de terapia com ela. Renato pede Solange em namoro. Solange e Renato decidem assumir a relação. Raquel comenta com Poliana que precisará de um tempo para confiar de novo na filha. Cecília desperta do coma.",
+                                "thumb": "https://s01.video.glbimg.com/x216/13710024.jpg",
+                                "duration": 2622512,
+                                "formattedDuration": "43 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-06-26T01:10:31.000Z",
+                                "fullyWatchedThreshold": 2360261,
+                                "relatedEpisodeNumber": 75,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13706795",
+                                "headline": "Capítulo de 24/06/2025",
+                                "kind": "episode",
+                                "description": "Heleninha pede desculpas a Celina. Raquel pressiona Maria de Fátima a dizer como ela teve coragem de roubar para prejudicar uma criança. Raquel manda a filha reaver os documentos de Sarita. Celina e Estéban discutem por causa de Heleninha. Laís conta a Raquel que recebeu uma notificação do juizado, dizendo que Marco Aurélio quer a guarda de Sarita. Fernanda apoia Tiago, e André sente ciúmes.",
+                                "thumb": "https://s04.video.glbimg.com/x216/13706795.jpg",
+                                "duration": 2422995,
+                                "formattedDuration": "40 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-06-25T00:47:39.000Z",
+                                "fullyWatchedThreshold": 2180696,
+                                "relatedEpisodeNumber": 74,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13703837",
+                                "headline": "Capítulo de 23/06/2025",
+                                "kind": "episode",
+                                "description": "Estéban fica decepcionado ao saber que Celina não irá para seu jantar. Celina se convence de que não deve viajar com Estéban e deixar a sobrinha sozinha. Maria de Fátima se enfurece ao descobrir que César roubou dinheiro de sua conta. Consuêlo avisa a Jarbas que a mãe dele, Mariúche, não poderá ficar na casa da família. Laís decide ir para o Rio pegar Sarita.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13703837.jpg",
+                                "duration": 2395343,
+                                "formattedDuration": "39 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-06-24T01:07:43.000Z",
+                                "fullyWatchedThreshold": 2155809,
+                                "relatedEpisodeNumber": 73,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "id": "13700217",
+                                "headline": "Capítulo de 21/06/2025",
+                                "kind": "episode",
+                                "description": "Marco Aurélio leva Sarita para o Rio depois que descobre o sumiço de Laís. Marco Aurélio afirma a Leila que Sarita não deixará mais sua casa. Marco Aurélio pede a Leila que se mude para sua casa com Bruno. Odete pede ajuda a Maria de Fátima no seu plano para impedir Celina de viajar. Leila e Bruno se mudam para a casa de Marco Aurélio. Laís exige que Marco Aurélio lhe devolva Sarita.",
+                                "thumb": "https://s02.video.glbimg.com/x216/13700217.jpg",
+                                "duration": 2362084,
+                                "formattedDuration": "39 min",
+                                "availableFor": "SUBSCRIBER",
+                                "accessibleOffline": true,
+                                "exhibitedAt": "2025-06-22T02:01:39.000Z",
+                                "fullyWatchedThreshold": 2125876,
+                                "relatedEpisodeNumber": 72,
+                                "relatedSeasonNumber": null,
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "globoplay-sem-ads:media-rights",
+                                        "aeid": "globoplay-sem-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-com-ads:media-rights",
+                                        "aeid": "globoplay-com-ads",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-assinante:media-rights",
+                                        "aeid": "globoplay-assinante",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ],
+                                "__typename": "Video"
+                            },
+                            "__typename": "Episode"
+                        }
+                    ],
+                    "__typename": "EpisodeCollection"
+                },
+                "__typename": "EpisodeListStructure"
+            },
+            "__typename": "Title"
+        }
+    }
+}

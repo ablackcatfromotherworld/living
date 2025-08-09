@@ -1,0 +1,160 @@
+{
+    "sources": [
+        {
+            "type": "primary",
+            "cdn": "googlemedia",
+            "url": "https://egcdn-vod.video.globo.com/r360_1080/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-wYdmQ5P-manifest.ism/edge-cache-token=Expires=1754652510&KeyName=media-cdn-keyset-prod&Signature=2WqCvbU488nFROnxYbVBUusDkTgM5JmxrxnrdNfZQcEUXcMBySZQB3ryAO0zGear6HRBRkQvTnQBr9WZDhsEDA==/13820527.m3u8",
+            "token": "edge-cache-token=Expires=1754652510&KeyName=media-cdn-keyset-prod&Signature=2WqCvbU488nFROnxYbVBUusDkTgM5JmxrxnrdNfZQcEUXcMBySZQB3ryAO0zGear6HRBRkQvTnQBr9WZDhsEDA==",
+            "pop": "googlemedia",
+            "text": {
+                "por": {
+                    "caption": {
+                        "srt": {
+                            "url": "https://egcdn-vod.video.globo.com/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-por-a8f08860-553c-013e-01a8-000000000000.srt"
+                        },
+                        "webvtt": {
+                            "url": "https://egcdn-vod.video.globo.com/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-por-a8f08860-553c-013e-01a8-000000000000.vtt"
+                        }
+                    }
+                }
+            },
+            "audio": {
+                "description": {
+                    "por": {
+                        "asset_key": "13820527_avc_360_1080_por_adesc_hls",
+                        "url": "https://egcdn-vod.video.globo.com/r360_1080/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-wYdmQ5P-manifest.ism/edge-cache-token=Expires=1754652510&KeyName=media-cdn-keyset-prod&Signature=2WqCvbU488nFROnxYbVBUusDkTgM5JmxrxnrdNfZQcEUXcMBySZQB3ryAO0zGear6HRBRkQvTnQBr9WZDhsEDA==/13820527-por-adesc.m3u8"
+                    }
+                },
+                "original": {
+                    "por": {
+                        "asset_key": "13820527_avc_360_1080_por_hls",
+                        "url": "https://egcdn-vod.video.globo.com/r360_1080/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-wYdmQ5P-manifest.ism/edge-cache-token=Expires=1754652510&KeyName=media-cdn-keyset-prod&Signature=2WqCvbU488nFROnxYbVBUusDkTgM5JmxrxnrdNfZQcEUXcMBySZQB3ryAO0zGear6HRBRkQvTnQBr9WZDhsEDA==/13820527-por.m3u8"
+                    }
+                }
+            },
+            "dai": false,
+            "content_source_id": "",
+            "asset_key": "13820527_avc_360_1080_hls",
+            "custom_asset_key": "",
+            "network_code": "",
+            "expiration_time": 5451546
+        },
+        {
+            "type": "fallback",
+            "cdn": "globo",
+            "url": "https://vod-as-04-25.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wNC0yNS52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NTQ2NTI1MTAsImlhdCI6MTc1NDY0NzA1OSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI5M2NjNGVjMy05NThiLTQxZTctODUzMS1jMWMxYzMyMGJmMzkiLCJwYXRoIjoiL3IzNjBfMTA4MC92MS80NS84ZS9lYS8xMzgyMDUyN19lYTExODVmN2ZjNjM3OGY1MGY5NTVlMWMzZjg2YWI4MWU5MzUzM2E5LzEzODIwNTI3LXdZZG1RNVAtbWFuaWZlc3QuaXNtLzEzODIwNTI3Lm0zdTgifQ.iyHdxUxOMJE7Q3VgameIfk_Uu0TBCsirAmJsHQpPGeZIohTk5nakpH4V00J1D8vNrBEF-Cy1vSzcmZmzCGive3kb432Txg8d3H6OC7zTFePaRZV7ZM0rOdQFXCZplDWZ0ZAvxb95dd24dJG51WD0ImZeDHFgvZH5Wsa_8eOWNnj36Bi7gikT7okO4TEdSryV8mFgl2jr8uPzp6xhTu3Tm0toMayRaVAUDKv1e_HuWnuZ2ah8x7nYXqKq_q6BxVcLN7dmwHjTRKk1CRzHMQgevyhu7wny-dmTtZNJlp8ZN_paH75ZZAbfLjTaOZuKWc2c9k7pRklcJ1vkHQ58VM2Adg/r360_1080/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-wYdmQ5P-manifest.ism/13820527.m3u8",
+            "token": "eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wNC0yNS52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NTQ2NTI1MTAsImlhdCI6MTc1NDY0NzA1OSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI5M2NjNGVjMy05NThiLTQxZTctODUzMS1jMWMxYzMyMGJmMzkiLCJwYXRoIjoiL3IzNjBfMTA4MC92MS80NS84ZS9lYS8xMzgyMDUyN19lYTExODVmN2ZjNjM3OGY1MGY5NTVlMWMzZjg2YWI4MWU5MzUzM2E5LzEzODIwNTI3LXdZZG1RNVAtbWFuaWZlc3QuaXNtLzEzODIwNTI3Lm0zdTgifQ.iyHdxUxOMJE7Q3VgameIfk_Uu0TBCsirAmJsHQpPGeZIohTk5nakpH4V00J1D8vNrBEF-Cy1vSzcmZmzCGive3kb432Txg8d3H6OC7zTFePaRZV7ZM0rOdQFXCZplDWZ0ZAvxb95dd24dJG51WD0ImZeDHFgvZH5Wsa_8eOWNnj36Bi7gikT7okO4TEdSryV8mFgl2jr8uPzp6xhTu3Tm0toMayRaVAUDKv1e_HuWnuZ2ah8x7nYXqKq_q6BxVcLN7dmwHjTRKk1CRzHMQgevyhu7wny-dmTtZNJlp8ZN_paH75ZZAbfLjTaOZuKWc2c9k7pRklcJ1vkHQ58VM2Adg",
+            "pop": "as",
+            "text": {
+                "por": {
+                    "caption": {
+                        "srt": {
+                            "url": "https://vod-as-04-25.video.globo.com/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-por-a8f08860-553c-013e-01a8-000000000000.srt"
+                        },
+                        "webvtt": {
+                            "url": "https://vod-as-04-25.video.globo.com/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-por-a8f08860-553c-013e-01a8-000000000000.vtt"
+                        }
+                    }
+                }
+            },
+            "audio": {
+                "description": {
+                    "por": {
+                        "asset_key": "13820527_avc_360_1080_por_adesc_hls",
+                        "url": "https://vod-as-04-25.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wNC0yNS52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NTQ2NTI1MTAsImlhdCI6MTc1NDY0NzA1OSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI5M2NjNGVjMy05NThiLTQxZTctODUzMS1jMWMxYzMyMGJmMzkiLCJwYXRoIjoiL3IzNjBfMTA4MC92MS80NS84ZS9lYS8xMzgyMDUyN19lYTExODVmN2ZjNjM3OGY1MGY5NTVlMWMzZjg2YWI4MWU5MzUzM2E5LzEzODIwNTI3LXdZZG1RNVAtbWFuaWZlc3QuaXNtLzEzODIwNTI3LXBvci1hZGVzYy5tM3U4In0.V142-e9u1d4Kev1G-tc2RZFxhdwWmlJbHFd1l8OML0J3NTFg-KJblE85uizYh0TcJHLwbxkB_A15Xe0u2TSageIM6jj5nk3JPszStsE_mKGGA3CwWLYTHeDGvyvn3tuG6bGlmvPn9JgGL93Y1HGjGs41nyqxso9Mum1nKqh2ZZ5OjD_k6G7TzIIwYt4O0R0MddXlNJGziulsrxucU2DwIQ_StX9NeXCgSyQbKtSDEyr8namQe-n7maY2Ibd128J6qcDcHRny3uJuCJWWzub2o1fhIMfvKL5sLwq5ArBP3VHiG2gtTZ5vDdAcVjoHhEViEwtPyrvkmtkXF41_xCLKLA/r360_1080/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-wYdmQ5P-manifest.ism/13820527-por-adesc.m3u8"
+                    }
+                },
+                "original": {
+                    "por": {
+                        "asset_key": "13820527_avc_360_1080_por_hls",
+                        "url": "https://vod-as-04-25.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJVUyIsImRvbWFpbiI6InZvZC1hcy0wNC0yNS52aWRlby5nbG9iby5jb20iLCJleHAiOjE3NTQ2NTI1MTAsImlhdCI6MTc1NDY0NzA1OSwiaXNzIjoicGxheWJhY2stYXBpLXByb2QtZ2NwIiwib3duZXIiOiI5M2NjNGVjMy05NThiLTQxZTctODUzMS1jMWMxYzMyMGJmMzkiLCJwYXRoIjoiL3IzNjBfMTA4MC92MS80NS84ZS9lYS8xMzgyMDUyN19lYTExODVmN2ZjNjM3OGY1MGY5NTVlMWMzZjg2YWI4MWU5MzUzM2E5LzEzODIwNTI3LXdZZG1RNVAtbWFuaWZlc3QuaXNtLzEzODIwNTI3LXBvci5tM3U4In0.FcDqxlG_P1x5zf5ZUeDIk4bFp3HOjt1wPCRtDjuLCBR82fKdXO2SHvNeL5LrF7OwvnHmQl20bPJK3YI0PHc1tsJwlPG5aeyQtyuwvpeAU-9tsbpspIklYKM_YknIku4_7q6oAF2SVfMUJG7W8NUz_P3-JujNBjJclVZOUrCrHfEoPNajVG2O7vgKjQHFbECoCEbxg2Fo6vBJnf6KmzRf0TI6gYMjrvCRgpeHU5rWKfBBnRvWcccmn77RMDg7eRs2CKJGbhYrwLDrz1q6TadJz84uACKdhIWdY2TKKPhsP_I2pn-aUQx3Zh-OLCP8JsCJNWm3DrkzEdnNgRAFMFGivw/r360_1080/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-wYdmQ5P-manifest.ism/13820527-por.m3u8"
+                    }
+                }
+            },
+            "dai": false,
+            "content_source_id": "",
+            "asset_key": "13820527_avc_360_1080_hls",
+            "custom_asset_key": "",
+            "network_code": "",
+            "expiration_time": 5451546
+        }
+    ],
+    "resource": {
+        "drm_protection_enabled": false,
+        "content_protection": {}
+    },
+    "thumbs_preview_base_url": "https://egcdn-vod.video.globo.com/v1/45/8e/ea/13820527_ea1185f7fc6378f50f955e1c3f86ab81e93533a9/13820527-360p_487k_h264-a8f08860-553c-013e-01a8-000000000000.mp4",
+    "thumbs_url": "",
+    "metadata": {
+        "id": 13820527,
+        "title": "Capítulo de 06/08/2025",
+        "description": "Zulma e Zenaide escapam da polícia. Asdrúbal e Candinho afirmam que Celso está apaixonado por Estela. Zulma orienta as crianças a furtarem pertences de Candinho, e Samir os proíbe. Tamires exige que Ernesto lhe repasse o dinheiro que ganha de Mirtes. Francine alerta Mirtes sobre Ernesto. Olga convence Araújo a comprar um carro novo com dinheiro desviado da fábrica.",
+        "type": "Video",
+        "geofencing": false,
+        "kind": "episode",
+        "adult": false,
+        "encrypted": false,
+        "archived": false,
+        "program": "Êta Mundo Melhor!",
+        "program_id": 29108,
+        "content_rating": "10",
+        "content_rating_criteria": [],
+        "verify_content_rating": false,
+        "self_rated": true,
+        "provider_id": null,
+        "ad_unit": "tvg_GloboPlay/Novelas/Eta_Mundo_Melhor",
+        "ad_custom_data": "tvg_pgStr=globoplay/novelas/Êta Mundo Melhor&pa=1",
+        "ad_account_id": "95377733",
+        "ad_cms_id": "11413",
+        "channel": "Rede Globo",
+        "channel_id": 196,
+        "category": "Entretenimento",
+        "subscriber_only": true,
+        "service_id": 151,
+        "media_rights": [
+            "globoplay-assinante",
+            "globoplay-com-ads",
+            "globoplay-sem-ads"
+        ],
+        "created_at": "2025-08-06",
+        "exhibited_at": "2025-08-06",
+        "duration": 1817182,
+        "url_for_consumption": "https://globoplay.globo.com/v/13820527/",
+        "accessible_offline": true,
+        "codec": "AVC",
+        "max_height": 1080,
+        "low_latency": false,
+        "languages": [
+            {
+                "language": "por",
+                "representations": [
+                    {
+                        "format": "ISO_639-1",
+                        "value": "pt"
+                    },
+                    {
+                        "format": "ISO_639-2B",
+                        "value": "por"
+                    },
+                    {
+                        "format": "RFC_5646",
+                        "value": "pt-BR"
+                    }
+                ]
+            }
+        ],
+        "cuepoints": [
+            {
+                "time": 498273,
+                "title": "",
+                "type": "next_segment"
+            },
+            {
+                "time": 1351233,
+                "title": "",
+                "type": "next_segment"
+            }
+        ]
+    },
+    "session": "eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJhcHBsaWNhdGlvbiI6IjE1MSIsImNvdW50cnlfY29kZSI6IiIsImV4cCI6MTc1NTI1MTg1OSwiaWF0IjoxNzU0NjQ3MDU5LCJpc3MiOiJwbGF5YmFjay1hcGktcHJvZC1nY3AiLCJtYXhfc2xvdHMiOjMsIm9wZW5fc3RhdHVzIjoiRiIsIm93bmVyIjoiOTNjYzRlYzMtOTU4Yi00MWU3LTg1MzEtYzFjMWMzMjBiZjM5Iiwic2xvdHNfZ3JvdXAiOiJnbG9ib3BsYXlfdGllcl8xIiwidXNlclNlc3Npb25LZXkiOiJmYTZkZWU2MC1mNmFkLTRjODQtOTg3MS0yY2RlMWJhNGYyNTQiLCJ2aWRlb19zZXNzaW9uX2lkIjoiNTYxNDgzNDUtMmE2Yi1jMjE3LTVkMGItNjI1MGJhNDM4OWU5In0.rdzeVM748-N_bH2SdhYY6IBYp7lqSAzOTUwEA5Ym7peqOIt1DUVoV4A0fQbkuei8Pj4hGVkLeNeq4moFle8eAxvWbdAX2MSHCtMgTv052hiOHLmaMX5JN93gDJDMyfk_lY91Wj8m_12hNVD7yEEiGjj_hdtudkV8DKn_QnLauS5qhW0CBQXD3yojpYa4iT4uhLqTh7-ZSTp5JQaelaRPCizuugscw8nQmeaj53hqi5OKIPvDQa0haCvnITdEm20dVwWRVdco-wqjOk5-DohpgpGnFYfkOujj5Sq3SNNJYcR5CyqcM9J2KdOpg8qBwoYQUiDTrt10Vp1GjQ3TgJ5-YQ"
+}

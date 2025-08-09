@@ -1,8 +1,7 @@
 import json
 import time
-from sqlalchemy import create_engine, Column, String, Text
-from sqlalchemy.orm import sessionmaker
-from sqlalchemy.ext.declarative import declarative_base
+from sqlalchemy import create_engine, Column, String, Text, inspect
+from sqlalchemy.orm import sessionmaker, declarative_base
 import logging
 
 # 配置日志
@@ -30,8 +29,26 @@ class GloboSeries(Base):
     subscriptionServices_id = Column(String(255))
     m3u8_url = Column(Text)
 
-# 创建表
-Base.metadata.create_all(bind=engine)
+def create_table_if_not_exists():
+    """
+    检查GloboSeries表是否存在，如果不存在则创建
+    """
+    try:
+        # 使用inspect检查表是否存在
+        inspector = inspect(engine)
+        if not inspector.has_table('globo_series'):
+            logging.info("GloboSeries表不存在，正在创建...")
+            Base.metadata.create_all(bind=engine)
+            logging.info("GloboSeries表创建成功")
+        else:
+            logging.info("GloboSeries表已存在")
+    except Exception as e:
+        logging.error(f"创建表时出错: {e}")
+        # 如果检查失败，尝试直接创建（SQLAlchemy会忽略已存在的表）
+        Base.metadata.create_all(bind=engine)
+
+# 创建表（如果不存在）
+create_table_if_not_exists()
 
 def upload_data_with_retry(data, max_retries=3, delay=5):
     """
