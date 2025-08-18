@@ -2,7 +2,7 @@ import scrapy
 import json
 import os
 import requests
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from items import LivescoreItem, TeamItem
 
 
