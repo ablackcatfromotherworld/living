@@ -104,3 +104,39 @@ class LivescoreSpiderTasks:
 
 
 # 创建全局实例
+_spider_tasks = LivescoreSpiderTasks()
+
+# 导出任务函数
+def run_current_day_spider(days_back=0, days_forward=0):
+    """当天比赛数据爬取任务"""
+    return _spider_tasks.run_current_day_spider(days_back, days_forward)
+
+def run_historical_spider(days_back=7, days_forward=0):
+    """历史比赛数据爬取任务"""
+    return _spider_tasks.run_historical_spider(days_back, days_forward)
+
+def run_future_spider(days_back=0, days_forward=7):
+    """未来赛程数据爬取任务"""
+    return _spider_tasks.run_future_spider(days_back, days_forward)
+
+
+if __name__ == '__main__':
+    # 测试任务函数
+    import argparse
+    
+    parser = argparse.ArgumentParser(description='测试爬虫任务函数')
+    parser.add_argument('--task', choices=['current', 'historical', 'future'], 
+                       required=True, help='要测试的任务类型')
+    parser.add_argument('--days-back', type=int, default=0, help='向前天数')
+    parser.add_argument('--days-forward', type=int, default=0, help='向后天数')
+    
+    args = parser.parse_args()
+    
+    if args.task == 'current':
+        result = run_current_day_spider(args.days_back, args.days_forward)
+    elif args.task == 'historical':
+        result = run_historical_spider(args.days_back, args.days_forward)
+    elif args.task == 'future':
+        result = run_future_spider(args.days_back, args.days_forward)
+    
+    print(f"任务执行结果: {'成功' if result else '失败'}")

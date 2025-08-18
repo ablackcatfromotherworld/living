@@ -267,7 +267,7 @@ class LivescoreSpider(scrapy.Spider):
                 brazil_tz = timezone(timedelta(hours=-3))
                 dt_brazil = dt_utc.astimezone(brazil_tz)
                 
-                return dt_brazil.strftime('%Y-%m-%d')
+                return dt_brazil.strftime('%Y-%m-%d %H:%M:%S')
         except Exception as e:
             self.logger.warning(f"时间转换失败 (timestamp: {timestamp}): {e}")
         return ''
