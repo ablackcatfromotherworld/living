@@ -251,20 +251,22 @@ class LivescoreSpider(scrapy.Spider):
     def _parse_timestamp_full(self, timestamp):
         """解析时间戳为完整时间格式（巴西时间）"""
         try:
-            if timestamp:
-                import pytz
-                # 检查时间戳格式，可能是毫秒级时间戳
-                # if timestamp > 1e10:  # 毫秒级时间戳
-                #     timestamp = timestamp / 1000
+            if len(timestamp) == 14:
+                year = timestamp[:4]
+                month = timestamp[4:6]
+                day = timestamp[6:8]
+                hour = timestamp[8:10]
+                minute = timestamp[10:12]
+                second = timestamp[12:14]
                 
-                # 将时间戳转换为UTC时间（使用现代方法）
-                utc_dt = datetime.fromtimestamp(timestamp, tz=pytz.UTC)
+                # 创建UTC时间
+                dt_utc = datetime(int(year), int(month), int(day), int(hour), int(minute), int(second), tzinfo=timezone.utc)
                 
-                # 转换为巴西时间（巴西利亚时区）
-                brazil_tz = pytz.timezone('America/Sao_Paulo')
-                brazil_dt = utc_dt.astimezone(brazil_tz)
+                # 转换为巴西首都时间（UTC-3）
+                brazil_tz = timezone(timedelta(hours=-3))
+                dt_brazil = dt_utc.astimezone(brazil_tz)
                 
-                return brazil_dt.strftime('%Y-%m-%d %H:%M:%S')
+                return dt_brazil.strftime('%Y-%m-%d')
         except Exception as e:
             self.logger.warning(f"时间转换失败 (timestamp: {timestamp}): {e}")
         return ''
