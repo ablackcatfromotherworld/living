@@ -251,7 +251,7 @@ class LivescoreSpider(scrapy.Spider):
     def _parse_timestamp_full(self, timestamp):
         """解析时间戳为完整时间格式（巴西时间）"""
         try:
-            if len(timestamp) == 14:
+            if len(str(timestamp)) == 14:
                 year = timestamp[:4]
                 month = timestamp[4:6]
                 day = timestamp[6:8]
