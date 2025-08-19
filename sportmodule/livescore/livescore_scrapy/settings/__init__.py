@@ -60,7 +60,11 @@ DEFAULT_REQUEST_HEADERS = {
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'pipelines.database_pipeline.DatabasePipeline': 400,
+    # 原始数据库管道（已弃用）
+    # 'pipelines.database_pipeline.DatabasePipeline': 400,
+    
+    # 重构后的数据库管道（推荐使用）
+    'pipelines.refactored_database_pipeline.RefactoredDatabasePipeline': 400,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
@@ -85,7 +89,7 @@ AUTOTHROTTLE_DEBUG = False
 # HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
 
 # 数据库配置
-DATABASE_URL = 'mysql+pymysql://spiderman:ew4%2598fRpe@43.157.134.155:33070/spider'
+DATABASE_URL = 'mysql+pymysql://spider_0818:3IQ6fgAQVad0PylSEg.@43.157.134.155:33070/spider'
 
 # 批处理大小
 BATCH_SIZE = 100

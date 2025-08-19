@@ -117,14 +117,16 @@ class LivescoreSpider(scrapy.Spider):
                             match_info['team1_id'],
                             match_info['team1_name'],
                             match_info['team1_img'],
-                            sport
+                            sport,
+                            language
                         )
                         
                         team2_item = self._create_team_item(
                             match_info['team2_id'],
                             match_info['team2_name'],
                             match_info['team2_img'],
-                            sport
+                            sport,
+                            language
                         )
                         
                         # 创建比赛Item
@@ -165,30 +167,24 @@ class LivescoreSpider(scrapy.Spider):
             if not team1_name or not team2_name:
                 return None
             
-            # 比赛时间和状态
-            timestamp = event.get('Esd', 0)
-            time_full = self._parse_timestamp_full(timestamp) if timestamp else ''
+            # 比赛时间和状态 - 使用新的转换方法
+            esd_timestamp = event.get('Esd', 0)
+            time_full_unix = self._convert_esd_to_unix_timestamp(esd_timestamp) if esd_timestamp else None
             
             # 比分
             tr1 = event.get('Tr1', '')
             tr2 = event.get('Tr2', '')
             
-            # 比赛状态 - 优先使用EpsL字段，如果为空则使用Eps字段并映射
-            status = event.get('EpsL', '').strip()  # 比赛状态（如Finished, Not started等）
-            if not status:
-                # 如果EpsL为空，尝试使用Eps字段并映射
-                status_code = event.get('Eps', '').strip()
-                if status_code:
-                    status = self._map_status(status_code)
-                else:
-                    status = 'Unknown'  # 默认状态
+            # 比赛状态 - 使用Esid数字ID
+            status_id = event.get('Esid', 0)  # 直接使用Esid作为状态ID
             
             # 比赛进度信息
             round_info = event.get('ErnInf', '')  # 轮次/阶段信息（如Match 18）
             
-            # 从stage中获取联赛和国家信息（修复空字段问题）
+            # 从stage中获取联赛和国家信息
             stage_info = stage.get('Snm', '')  # 从stage获取联赛名称
             country = stage.get('Cnm', '')     # 从stage获取国家名称
+            season_id = stage.get('Sid', '')   # 获取赛季ID用于串联
             
             return {
                 'match_id': match_id,
@@ -198,14 +194,15 @@ class LivescoreSpider(scrapy.Spider):
                 'team2_id': team2_id,
                 'team2_name': team2_name,
                 'team2_img': team2_img,
-                'timestamp': timestamp,
-                'time_full': time_full,
+                'esd_timestamp': esd_timestamp,
+                'time_full_unix': time_full_unix,
                 'score1': str(tr1) if tr1 is not None else '',
                 'score2': str(tr2) if tr2 is not None else '',
-                'status': status,
+                'status_id': status_id,
                 'round_info': round_info,
                 'league': stage_info,
                 'country': country,
+                'season_id': season_id,
                 'date': date_str
             }
         
@@ -213,13 +210,14 @@ class LivescoreSpider(scrapy.Spider):
             self.logger.error(f"提取比赛信息失败: {e}")
             return None
     
-    def _create_team_item(self, team_id, team_name, team_img, sport):
+    def _create_team_item(self, team_id, team_name, team_img, sport, language):
         """创建队伍Item"""
         team_item = TeamItem()
         team_item['team_id'] = team_id
         team_item['team_name'] = team_name
         team_item['team_img'] = team_img
         team_item['sport'] = sport
+        team_item['language'] = language
         return team_item
     
     def _create_match_item(self, match_info, sport, language):
@@ -228,16 +226,17 @@ class LivescoreSpider(scrapy.Spider):
         match_item['match_id'] = match_info['match_id']
         match_item['sport'] = sport
         match_item['date'] = match_info['date']
-        match_item['time_full'] = match_info['time_full']
-        match_item['timestamp'] = match_info['timestamp']
+        match_item['time_full'] = match_info['time_full_unix']  # 使用Unix时间戳
+        match_item['esd_timestamp'] = match_info['esd_timestamp']  # 保留原始Esd时间戳
         match_item['language'] = language
         match_item['league'] = match_info['league']
         match_item['country'] = match_info['country']
+        match_item['season_id'] = match_info['season_id']  # 添加赛季ID
         match_item['team1_id'] = match_info['team1_id']
         match_item['team2_id'] = match_info['team2_id']
         match_item['score1'] = match_info['score1']
         match_item['score2'] = match_info['score2']
-        match_item['status'] = match_info['status']
+        match_item['status'] = match_info['status_id']  # 使用状态ID
         match_item['round_info'] = match_info['round_info']
         
         # 队伍信息（保持向后兼容）
@@ -248,8 +247,33 @@ class LivescoreSpider(scrapy.Spider):
         
         return match_item
     
+    def _convert_esd_to_unix_timestamp(self, esd_timestamp):
+        """将Esd时间戳（YYYYMMDDHHMMSS格式）转换为Unix时间戳"""
+        try:
+            if not esd_timestamp or len(str(esd_timestamp)) != 14:
+                return None
+                
+            esd_str = str(esd_timestamp)
+            year = int(esd_str[:4])
+            month = int(esd_str[4:6])
+            day = int(esd_str[6:8])
+            hour = int(esd_str[8:10])
+            minute = int(esd_str[10:12])
+            second = int(esd_str[12:14])
+            
+            # 创建UTC时间
+            dt_utc = datetime(year, month, day, hour, minute, second, tzinfo=timezone.utc)
+            
+            # 转换为Unix时间戳
+            unix_timestamp = int(dt_utc.timestamp())
+            return unix_timestamp
+            
+        except (ValueError, IndexError) as e:
+            self.logger.warning(f"Esd时间戳转换失败 (Esd: {esd_timestamp}): {e}")
+            return None
+    
     def _parse_timestamp_full(self, timestamp):
-        """解析时间戳为完整时间格式（巴西时间）"""
+        """解析时间戳为完整时间格式（巴西时间）- 保持向后兼容"""
         timestamp = str(timestamp)
         try:
             if len(timestamp) == 14:
@@ -396,6 +420,7 @@ class LivescoreFileSpider(scrapy.Spider):
             team1_item['team_name'] = team1_name
             team1_item['team_img'] = team1_img
             team1_item['sport'] = sport
+            team1_item['language'] = language
             
             # 创建队伍Item（客队）
             team2_item = TeamItem()
@@ -403,6 +428,7 @@ class LivescoreFileSpider(scrapy.Spider):
             team2_item['team_name'] = team2_name
             team2_item['team_img'] = team2_img
             team2_item['sport'] = sport
+            team2_item['language'] = language
             
             # 创建比赛Item
             match_item = LivescoreItem()

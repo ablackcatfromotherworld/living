@@ -15,6 +15,7 @@ class TeamItem(scrapy.Item):
     team_name = scrapy.Field()      # 队伍名称
     team_img = scrapy.Field()       # 队伍图标URL
     sport = scrapy.Field()          # 运动类型
+    language = scrapy.Field()       # 语言类型
     
     def __repr__(self):
         return f"TeamItem({self.get('team_name', 'N/A')}, ID: {self.get('team_id', 'N/A')})"
@@ -31,11 +32,13 @@ class LivescoreItem(scrapy.Item):
     date = scrapy.Field()           # 比赛日期
     time_full = scrapy.Field()      # 完整时间信息
     timestamp = scrapy.Field()      # 时间戳
+    esd_timestamp = scrapy.Field()  # 原始Esd时间戳
     language = scrapy.Field()       # 语言
     
     # 联赛信息
     league = scrapy.Field()         # 联赛名称
     country = scrapy.Field()        # 国家
+    season_id = scrapy.Field()      # 赛季ID
     
     # 队伍关联（外键）
     team1_id = scrapy.Field()       # 主队ID（关联teams表）
