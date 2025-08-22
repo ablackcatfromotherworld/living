@@ -124,7 +124,10 @@ class FootballSpider(scrapy.Spider):
                                     if 'tournaments' in category:
                                         leagues_data.extend(category['tournaments'])
             
-            self.logger.info(f"足球国家 {country_id} 获取到 {len(leagues_data)} 个联赛")
+            # 只在pt语言时输出日志，避免重复
+            current_language = response.meta.get('language', 'pt')
+            if current_language == 'pt':
+                self.logger.info(f"足球国家 {country_id} 获取到 {len(leagues_data)} 个联赛")
             
             for league in leagues_data:
                 league_id = league.get('_tid')
@@ -209,7 +212,10 @@ class FootballSpider(scrapy.Spider):
             season_item['updated_at'] = datetime.now().isoformat()
             
             yield season_item
-            self.logger.info(f"足球赛季 {season_id} 获取到 {len(matches_data)} 场比赛")
+            # 只在pt语言时输出日志，避免重复
+            current_language = response.meta.get('language', 'pt')
+            if current_language == 'pt':
+                self.logger.info(f"足球赛季 {season_id} 获取到 {len(matches_data)} 场比赛")
             
             for match in matches_data:
                 match_id = match.get('_id')
