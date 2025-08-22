@@ -15,8 +15,8 @@ class AmericanfootballSpider(scrapy.Spider):
     allowed_domains = ["stats.fn.sportradar.com", "s5.sir.sportradar.com"]
     
     # 美式足球运动配置
-    sport_id = 4
-    sport_name = "美式足球"
+    sport_id = 16
+    sport_name = "美式橄榄球"
     
     # API配置
     base_url_template = "https://stats.fn.sportradar.com/bet365/{}/Asia:Shanghai/gismo"
@@ -116,13 +116,13 @@ class AmericanfootballSpider(scrapy.Spider):
             # 提取联赛数据
             leagues_data = []
             if 'doc' in data and isinstance(data['doc'], list):
-                for doc in data['doc']:
-                    if 'data' in doc and isinstance(doc['data'], list):
-                        for sport_data in doc['data']:
-                            if 'realcategories' in sport_data:
-                                for category in sport_data['realcategories']:
-                                    if 'tournaments' in category:
-                                        leagues_data.extend(category['tournaments'])
+                doc = data['doc'][0]
+                if 'data' in doc and isinstance(doc['data'], list):
+                    sport_data = doc['data'][0]
+                    if 'realcategories' in sport_data:
+                        category = sport_data['realcategories'][0]
+                        if 'tournaments' in category:
+                            leagues_data.extend(category['tournaments'])
             
             self.logger.info(f"美式足球国家 {country_id} 获取到 {len(leagues_data)} 个联赛")
             

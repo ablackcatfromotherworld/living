@@ -26,26 +26,23 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# 18个运动爬虫配置
+# 15个运动爬虫配置（与sports_spider.py中sport_priorities保持一致）
 SPIDERS_CONFIG = [
     {"name": "football_spider", "sport_name": "Football", "sport_id": 1},
+    {"name": "volleyball_spider", "sport_name": "Volleyball", "sport_id": 23},
+    {"name": "beachvolleyball_spider", "sport_name": "Beach Volleyball", "sport_id": 34},
+    {"name": "futsal_spider", "sport_name": "Futsal", "sport_id": 29},
     {"name": "basketball_spider", "sport_name": "Basketball", "sport_id": 2},
-    {"name": "icehockey_spider", "sport_name": "Ice Hockey", "sport_id": 3},
-    {"name": "americanfootball_spider", "sport_name": "American Football", "sport_id": 4},
+    {"name": "mma_spider", "sport_name": "MMA", "sport_id": 117},
     {"name": "tennis_spider", "sport_name": "Tennis", "sport_id": 5},
-    {"name": "volleyball_spider", "sport_name": "Volleyball", "sport_id": 6},
-    {"name": "handball_spider", "sport_name": "Handball", "sport_id": 7},
-    {"name": "baseball_spider", "sport_name": "Baseball", "sport_id": 8},
-    {"name": "rugby_spider", "sport_name": "Rugby", "sport_id": 9},
-    {"name": "cricket_spider", "sport_name": "Cricket", "sport_id": 10},
-    {"name": "darts_spider", "sport_name": "Darts", "sport_id": 11},
-    {"name": "snooker_spider", "sport_name": "Snooker", "sport_id": 12},
-    {"name": "boxing_spider", "sport_name": "Boxing", "sport_id": 13},
-    {"name": "golf_spider", "sport_name": "Golf", "sport_id": 14},
-    {"name": "motorsport_spider", "sport_name": "Motorsport", "sport_id": 15},
-    {"name": "esports_spider", "sport_name": "Esports", "sport_id": 16},
-    {"name": "tabletennis_spider", "sport_name": "Table Tennis", "sport_id": 17},
-    {"name": "badminton_spider", "sport_name": "Badminton", "sport_id": 18}
+    {"name": "americanfootball_spider", "sport_name": "American Football", "sport_id": 16},
+    {"name": "formula1_spider", "sport_name": "Formula 1", "sport_id": 40},
+    {"name": "rally_spider", "sport_name": "Rally", "sport_id": 101},
+    {"name": "handball_spider", "sport_name": "Handball", "sport_id": 6},
+    {"name": "tabletennis_spider", "sport_name": "Table Tennis", "sport_id": 20},
+    {"name": "badminton_spider", "sport_name": "Badminton", "sport_id": 31},
+    {"name": "snooker_spider", "sport_name": "Snooker", "sport_id": 19},
+    {"name": "beachhandball_spider", "sport_name": "Beach Handball", "sport_id": 157}
 ]
 
 class ParallelSpiderScheduler:

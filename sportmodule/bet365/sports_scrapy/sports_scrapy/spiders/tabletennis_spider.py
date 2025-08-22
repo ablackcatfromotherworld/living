@@ -15,7 +15,7 @@ class TabletennisSpider(scrapy.Spider):
     allowed_domains = ["stats.fn.sportradar.com", "s5.sir.sportradar.com"]
     
     # 乒乓球运动配置
-    sport_id = 17
+    sport_id = 20
     sport_name = "乒乓球"
     
     # API配置
@@ -116,13 +116,13 @@ class TabletennisSpider(scrapy.Spider):
             # 提取联赛数据
             leagues_data = []
             if 'doc' in data and isinstance(data['doc'], list):
-                for doc in data['doc']:
-                    if 'data' in doc and isinstance(doc['data'], list):
-                        for sport_data in doc['data']:
-                            if 'realcategories' in sport_data:
-                                for category in sport_data['realcategories']:
-                                    if 'tournaments' in category:
-                                        leagues_data.extend(category['tournaments'])
+                doc = data['doc'][0]
+                if 'data' in doc and isinstance(doc['data'], list):
+                    sport_data = doc['data'][0]
+                    if 'realcategories' in sport_data:
+                        category = sport_data['realcategories'][0]
+                        if 'tournaments' in category:
+                            leagues_data.extend(category['tournaments'])
             
             self.logger.info(f"乒乓球国家 {country_id} 获取到 {len(leagues_data)} 个联赛")
             

@@ -116,13 +116,13 @@ class FootballSpider(scrapy.Spider):
             # 提取联赛数据
             leagues_data = []
             if 'doc' in data and isinstance(data['doc'], list):
-                for doc in data['doc']:
-                    if 'data' in doc and isinstance(doc['data'], list):
-                        for sport_data in doc['data']:
-                            if 'realcategories' in sport_data:
-                                for category in sport_data['realcategories']:
-                                    if 'tournaments' in category:
-                                        leagues_data.extend(category['tournaments'])
+                doc = data['doc'][0]
+                if 'data' in doc and isinstance(doc['data'], list):
+                    sport_data = doc['data'][0]
+                    if 'realcategories' in sport_data:
+                        category = sport_data['realcategories'][0]
+                        if 'tournaments' in category:
+                            leagues_data.extend(category['tournaments'])
             
             # 只在pt语言时输出日志，避免重复
             current_language = response.meta.get('language', 'pt')

@@ -10,13 +10,13 @@ from ..items import (
 )
 
 
-class GolfSpider(scrapy.Spider):
-    name = "golf_spider"
+class DartsSpider(scrapy.Spider):
+    name = "darts_spider"
     allowed_domains = ["stats.fn.sportradar.com", "s5.sir.sportradar.com"]
     
-    # 高尔夫运动配置
-    sport_id = 14
-    sport_name = "高尔夫"
+    # 飞镖运动配置
+    sport_id = 34
+    sport_name = "沙滩排球"
     
     # API配置
     base_url_template = "https://stats.fn.sportradar.com/bet365/{}/Asia:Shanghai/gismo"
@@ -33,11 +33,11 @@ class GolfSpider(scrapy.Spider):
     }
     
     def start_requests(self):
-        """开始请求 - 直接获取高尔夫的国家数据"""
+        """开始请求 - 直接获取飞镖的国家数据"""
         languages = ['pt', 'es', 'en']
-        sync_group = f"golf_countries_{int(time.time())}"
+        sync_group = f"darts_countries_{int(time.time())}"
         
-        # 直接为高尔夫运动获取国家数据
+        # 直接为飞镖运动获取国家数据
         for language in languages:
             base_url = self.base_url_template.format(language)
             countries_url = f"{base_url}/config_tree_mini/41/0/{self.sport_id}"
@@ -60,7 +60,7 @@ class GolfSpider(scrapy.Spider):
                 and len(data['doc'][0]['data']) > 0 and 'realcategories' in data['doc'][0]['data'][0]):
                 countries_data = data['doc'][0]['data'][0]['realcategories']
             
-            self.logger.info(f"高尔夫运动获取到 {len(countries_data)} 个国家/地区")
+            self.logger.info(f"飞镖运动获取到 {len(countries_data)} 个国家/地区")
             
             # 只获取指定的国家ID
             target_countries = [392, 4, 13]
@@ -89,7 +89,7 @@ class GolfSpider(scrapy.Spider):
                 # 只在第一种语言时为所有语言同时生成leagues请求
                 current_language = response.meta.get('language', 'pt')
                 if current_language == 'pt':  # 只在处理第一种语言时生成所有语言的请求
-                    sync_group = f"golf_leagues_{sport_id}_{country_id}_{int(time.time())}"
+                    sync_group = f"darts_leagues_{sport_id}_{country_id}_{int(time.time())}"
                     languages = ['pt', 'es', 'en']
                     for lang in languages:
                         base_url = self.base_url_template.format(lang)
@@ -102,7 +102,7 @@ class GolfSpider(scrapy.Spider):
                         )
                 
         except Exception as e:
-            self.logger.error(f"解析高尔夫国家/地区数据失败: {e}")
+            self.logger.error(f"解析飞镖国家/地区数据失败: {e}")
     
     def parse_leagues(self, response):
         """解析联赛数据"""
@@ -116,15 +116,15 @@ class GolfSpider(scrapy.Spider):
             # 提取联赛数据
             leagues_data = []
             if 'doc' in data and isinstance(data['doc'], list):
-                for doc in data['doc']:
-                    if 'data' in doc and isinstance(doc['data'], list):
-                        for sport_data in doc['data']:
-                            if 'realcategories' in sport_data:
-                                for category in sport_data['realcategories']:
-                                    if 'tournaments' in category:
-                                        leagues_data.extend(category['tournaments'])
+                doc = data['doc'][0]
+                if 'data' in doc and isinstance(doc['data'], list):
+                    sport_data = doc['data'][0]
+                    if 'realcategories' in sport_data:
+                        category = sport_data['realcategories'][0]
+                        if 'tournaments' in category:
+                            leagues_data.extend(category['tournaments'])
             
-            self.logger.info(f"高尔夫国家 {country_id} 获取到 {len(leagues_data)} 个联赛")
+            self.logger.info(f"飞镖国家 {country_id} 获取到 {len(leagues_data)} 个联赛")
             
             for league in leagues_data:
                 league_id = league.get('_tid')
@@ -150,7 +150,7 @@ class GolfSpider(scrapy.Spider):
                     # 只在第一种语言时为所有语言同时生成matches请求
                     current_language = response.meta.get('language', 'pt')
                     if current_language == 'pt':  # 只在处理第一种语言时生成所有语言的请求
-                        sync_group = f"golf_matches_{season_id}_{int(time.time())}"
+                        sync_group = f"darts_matches_{season_id}_{int(time.time())}"
                         languages = ['pt', 'es', 'en']
                         for lang in languages:
                             base_url = self.base_url_template.format(lang)
@@ -173,7 +173,7 @@ class GolfSpider(scrapy.Spider):
                             )
                 
         except Exception as e:
-            self.logger.error(f"解析高尔夫联赛数据失败: {e}")
+            self.logger.error(f"解析飞镖联赛数据失败: {e}")
     
     def parse_matches(self, response):
         """解析比赛数据"""
@@ -209,7 +209,7 @@ class GolfSpider(scrapy.Spider):
             season_item['updated_at'] = datetime.now().isoformat()
             
             yield season_item
-            self.logger.info(f"高尔夫赛季 {season_id} 获取到 {len(matches_data)} 场比赛")
+            self.logger.info(f"飞镖赛季 {season_id} 获取到 {len(matches_data)} 场比赛")
             
             for match in matches_data:
                 match_id = match.get('_id')
@@ -283,7 +283,7 @@ class GolfSpider(scrapy.Spider):
                 yield match_item
                 
         except Exception as e:
-            self.logger.error(f"解析高尔夫比赛数据失败: {e}")
+            self.logger.error(f"解析飞镖比赛数据失败: {e}")
     
     def parse(self, response):
         """默认解析方法（不使用）"""
