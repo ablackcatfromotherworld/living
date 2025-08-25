@@ -1,0 +1,629 @@
+{
+    "data": {
+        "title": {
+            "titleId": "XY6jnccMv9",
+            "headline": "Giro da Rodada - Futebol Masculino",
+            "structure": {
+                "episodes": {
+                    "page": 7,
+                    "nextPage": null,
+                    "total": 261,
+                    "resources": [
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "43 min",
+                                "headline": "Série A - 8ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 8ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 2633631,
+                                "id": "11660909",
+                                "thumb": "https://s02.video.glbimg.com/x216/11660909.jpg",
+                                "relatedEpisodeNumber": 21,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "44 min",
+                                "headline": "Série B - 8ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 8ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 2690955,
+                                "id": "11648326",
+                                "thumb": "https://s03.video.glbimg.com/x216/11648326.jpg",
+                                "relatedEpisodeNumber": 20,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "44 min",
+                                "headline": "Série B - 7ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 7ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 2656687,
+                                "id": "11642121",
+                                "thumb": "https://s02.video.glbimg.com/x216/11642121.jpg",
+                                "relatedEpisodeNumber": 19,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "51 min",
+                                "headline": "Série A - 7ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 7ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 3095092,
+                                "id": "11642078",
+                                "thumb": "https://s03.video.glbimg.com/x216/11642078.jpg",
+                                "relatedEpisodeNumber": 18,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "24 min",
+                                "headline": "Copa do Brasil - Oitavas de final - Ida",
+                                "description": "Assista aos melhores momentos de alguns jogos de ida das oitavas de final da Copa do Brasil 2023.",
+                                "duration": 1472237,
+                                "id": "11629882",
+                                "thumb": "https://s03.video.glbimg.com/x216/11629882.jpg",
+                                "relatedEpisodeNumber": 17,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "51 min",
+                                "headline": "Série B - 6ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 6ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 3098162,
+                                "id": "11623458",
+                                "thumb": "https://s03.video.glbimg.com/x216/11623458.jpg",
+                                "relatedEpisodeNumber": 16,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "43 min",
+                                "headline": "Série A - 6ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 6ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 2620651,
+                                "id": "11623457",
+                                "thumb": "https://s02.video.glbimg.com/x216/11623457.jpg",
+                                "relatedEpisodeNumber": 15,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "51 min",
+                                "headline": "Série A - 5ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 5ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 3070234,
+                                "id": "11614922",
+                                "thumb": "https://s03.video.glbimg.com/x216/11614922.jpg",
+                                "relatedEpisodeNumber": 14,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "46 min",
+                                "headline": "Série B - 5ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 5ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 2760625,
+                                "id": "11604419",
+                                "thumb": "https://s04.video.glbimg.com/x216/11604419.jpg",
+                                "relatedEpisodeNumber": 13,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "51 min",
+                                "headline": "Série A - 4ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 4ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 3093691,
+                                "id": "11604397",
+                                "thumb": "https://s02.video.glbimg.com/x216/11604397.jpg",
+                                "relatedEpisodeNumber": 12,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "43 min",
+                                "headline": "Série B - 4ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 4ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 2605303,
+                                "id": "11592100",
+                                "thumb": "https://s01.video.glbimg.com/x216/11592100.jpg",
+                                "relatedEpisodeNumber": 11,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "57 min",
+                                "headline": "Série A - 3ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 3ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 3467898,
+                                "id": "11585043",
+                                "thumb": "https://s04.video.glbimg.com/x216/11585043.jpg",
+                                "relatedEpisodeNumber": 10,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "57 min",
+                                "headline": "Série B - 3ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 3ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 3470500,
+                                "id": "11592093",
+                                "thumb": "https://s02.video.glbimg.com/x216/11592093.jpg",
+                                "relatedEpisodeNumber": 9,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "48 min",
+                                "headline": "Copa do Brasil - 3° Fase - Volta",
+                                "description": "Assista aos melhores momentos de alguns jogos de volta da terceira fase da Copa do Brasil 2023.",
+                                "duration": 2926690,
+                                "id": "11578583",
+                                "thumb": "https://s04.video.glbimg.com/x216/11578583.jpg",
+                                "relatedEpisodeNumber": 8,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "54 min",
+                                "headline": "Série A - 2ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 2ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 3298095,
+                                "id": "11566484",
+                                "thumb": "https://s01.video.glbimg.com/x216/11566484.jpg",
+                                "relatedEpisodeNumber": 7,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "53 min",
+                                "headline": "Série B - 2ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 2ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 3203500,
+                                "id": "11565134",
+                                "thumb": "https://s03.video.glbimg.com/x216/11565134.jpg",
+                                "relatedEpisodeNumber": 6,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "52 min",
+                                "headline": "Série A - 1ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 1ª rodada do Campeonato Brasileiro Série A 2023.",
+                                "duration": 3122653,
+                                "id": "11543854",
+                                "thumb": "https://s03.video.glbimg.com/x216/11543854.jpg",
+                                "relatedEpisodeNumber": 5,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "59 min",
+                                "headline": "Série B - 1ª Rodada",
+                                "description": "Assista aos melhores momentos de alguns jogos da 1ª rodada do Campeonato Brasileiro Série B 2023.",
+                                "duration": 3544708,
+                                "id": "11543045",
+                                "thumb": "https://s02.video.glbimg.com/x216/11543045.jpg",
+                                "relatedEpisodeNumber": 4,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "49 min",
+                                "headline": "Copa do Brasil - 3° Fase - Ida",
+                                "description": "Assista aos melhores momentos de alguns jogos de ida da terceira fase da Copa do Brasil 2023.",
+                                "duration": 2971535,
+                                "id": "11537506",
+                                "thumb": "https://s03.video.glbimg.com/x216/11537506.jpg",
+                                "relatedEpisodeNumber": 3,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "53 min",
+                                "headline": "Copa do Brasil - Segunda Fase",
+                                "description": "Assista aos melhores momentos de alguns jogos da segunda fase da Copa do Brasil 2023.",
+                                "duration": 3236033,
+                                "id": "11456107",
+                                "thumb": "https://s04.video.glbimg.com/x216/11456107.jpg",
+                                "relatedEpisodeNumber": 2,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        },
+                        {
+                            "video": {
+                                "availableFor": "SUBSCRIBER",
+                                "formattedDuration": "27 min",
+                                "headline": "Copa do Brasil - Primeira Fase",
+                                "description": "Assista aos melhores momentos de alguns jogos da primeira fase da Copa do Brasil 2023.",
+                                "duration": 1660492,
+                                "id": "11419230",
+                                "thumb": "https://s03.video.glbimg.com/x216/11419230.jpg",
+                                "relatedEpisodeNumber": 1,
+                                "kind": "episode",
+                                "__typename": "Video",
+                                "authorizationExternalIds": [
+                                    {
+                                        "id": "sportv:media-rights",
+                                        "aeid": "sportv",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    },
+                                    {
+                                        "id": "globoplay-canais:media-rights",
+                                        "aeid": "globoplay-canais",
+                                        "type": "media-rights",
+                                        "__typename": "AuthorizationExternalId"
+                                    }
+                                ]
+                            },
+                            "__typename": "Episode"
+                        }
+                    ],
+                    "__typename": "EpisodeCollection"
+                },
+                "__typename": "EpisodeListStructure"
+            },
+            "__typename": "Title"
+        }
+    }
+}
